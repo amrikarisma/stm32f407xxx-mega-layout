@@ -1,0 +1,8059 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "af3e1de6-ecd0-4042-9121-f37cb0375dcb")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Amplifier_Operational:MCP6004"
+			(pin_names
+				(offset 0.127)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "MCP6004"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf"
+				(at 1.27 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "1MHz, Low-Power Op Amp, DIP-14/SOIC-14/TSSOP-14"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "quad opamp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOIC*3.9x8.7mm*P1.27mm* DIP*W7.62mm* TSSOP*4.4x5mm*P0.65mm* SSOP*5.3x6.2mm*P0.65mm* MSOP*3x3mm*P0.5mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MCP6004_1_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "MCP6004_2_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "MCP6004_3_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "MCP6004_4_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "MCP6004_5_1"
+				(pin power_in line
+					(at -2.54 -7.62 90)
+					(length 3.81)
+					(name "V-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 7.62 270)
+					(length 3.81)
+					(name "V+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:R"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:+5V"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+5V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:Earth"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "Earth"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"Earth\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global ground gnd"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Earth_0_1"
+				(polyline
+					(pts
+						(xy -0.635 -1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.127 -2.54) (xy 0.127 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Earth_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 45.72 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "07a895a8-8d8b-4022-8d70-91f1fbc0d6f3")
+	)
+	(junction
+		(at 52.07 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0fd49868-14e0-4d79-9930-5bd9587148b8")
+	)
+	(junction
+		(at 96.52 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "14c24f96-0ab0-4eb2-af49-7293b55a6343")
+	)
+	(junction
+		(at 44.45 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2d13fdb9-ae42-4b2b-ba87-743cdfa1ad5f")
+	)
+	(junction
+		(at 96.52 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "43fb587c-44a0-4903-b340-1cd3f41ffd8f")
+	)
+	(junction
+		(at 200.66 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "59f7156d-a2e6-4fdb-b362-8d3b91e2379d")
+	)
+	(junction
+		(at 104.14 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5c8179f4-6470-4221-8fed-396d7202a2b6")
+	)
+	(junction
+		(at 193.04 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8c59d7ee-f587-4624-b46e-9be298e3b50b")
+	)
+	(junction
+		(at 200.66 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8fa8517b-1ff2-4bc9-8389-aa7e5ab5ca7d")
+	)
+	(junction
+		(at 144.78 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "92be803c-f74c-47f6-8706-15857b17fe60")
+	)
+	(junction
+		(at 143.51 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "99254ca3-8a28-4440-8c14-72678ce7d269")
+	)
+	(junction
+		(at 151.13 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9bc06723-11c3-4219-9164-98906e0cd5b8")
+	)
+	(junction
+		(at 102.87 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9f19deb8-85b4-4665-b5d2-0cef5049e07d")
+	)
+	(junction
+		(at 95.25 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a5890686-4236-4a47-b669-c5ec3f6939a3")
+	)
+	(junction
+		(at 53.34 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a8192f09-3adb-4fc4-8f0b-33ffcaca2817")
+	)
+	(junction
+		(at 152.4 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a8dfdd48-405a-4a19-865f-73619719c4bb")
+	)
+	(junction
+		(at 152.4 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "af45156b-e076-47a7-8697-0fbd5c5320ac")
+	)
+	(junction
+		(at 44.45 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bb555c28-e9a0-45da-9883-6e9f648a15a4")
+	)
+	(junction
+		(at 199.39 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bfef702d-d7a9-4e22-ae47-deec40615686")
+	)
+	(junction
+		(at 52.07 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c028bb3c-61f5-418f-a8fd-e2f45995e86f")
+	)
+	(junction
+		(at 144.78 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c38b1827-d888-41a7-9953-002d2e38f7e6")
+	)
+	(junction
+		(at 104.14 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c80c01c0-a378-48e8-800c-0d59f540ab59")
+	)
+	(junction
+		(at 191.77 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c9ea6f7a-b699-49ea-8d17-6d62f3d293e5")
+	)
+	(junction
+		(at 102.87 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "caa6d505-64ad-41ab-93f2-5032c1771749")
+	)
+	(junction
+		(at 143.51 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d5715c15-a87d-4757-8e92-6fac9f31c2c6")
+	)
+	(junction
+		(at 193.04 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "db9dde44-aea1-414b-9cef-fc5425f02f3b")
+	)
+	(junction
+		(at 95.25 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dfc24e98-6e19-4d5c-a430-49732aa7afbc")
+	)
+	(junction
+		(at 199.39 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e4945728-592c-44f5-85d8-9abb3f63e77f")
+	)
+	(junction
+		(at 53.34 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e69d93b4-8f2b-4f03-8cbf-8e81a8dcba10")
+	)
+	(junction
+		(at 151.13 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eadbea30-457c-48fc-8718-39a09aa71667")
+	)
+	(junction
+		(at 191.77 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ec5fa9d1-4021-4903-9900-e62cf817efb1")
+	)
+	(junction
+		(at 45.72 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f4ffb2d4-b9b0-457d-bd4b-da9bc9e0c97b")
+	)
+	(wire
+		(pts
+			(xy 191.77 86.36) (xy 191.77 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "002a7fc4-2d20-4d2a-8e51-305d31d79ecd")
+	)
+	(wire
+		(pts
+			(xy 29.21 85.09) (xy 44.45 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00eb2da8-8623-4529-81e2-4d0d8b3a056b")
+	)
+	(wire
+		(pts
+			(xy 96.52 129.54) (xy 96.52 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00f48ece-6ff5-4dca-986a-d93fe8f9bc5e")
+	)
+	(wire
+		(pts
+			(xy 100.33 58.42) (xy 100.33 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "015b9aaf-d953-4cc4-b7e2-4b1306609eae")
+	)
+	(wire
+		(pts
+			(xy 199.39 74.93) (xy 199.39 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0222138d-7580-4f50-bed8-0df13d4a0b73")
+	)
+	(wire
+		(pts
+			(xy 200.66 118.11) (xy 200.66 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "033b92ab-4b05-4186-8499-f220c7de5e59")
+	)
+	(wire
+		(pts
+			(xy 53.34 116.84) (xy 53.34 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0cf4bf5b-f485-4340-b25c-bf6e4b38c84b")
+	)
+	(wire
+		(pts
+			(xy 193.04 151.13) (xy 193.04 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d4d3c66-4c98-4a5e-acce-fd408d8489df")
+	)
+	(wire
+		(pts
+			(xy 60.96 120.65) (xy 60.96 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0eb7060d-6add-479b-8aba-91a606724bba")
+	)
+	(wire
+		(pts
+			(xy 81.28 129.54) (xy 96.52 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ef8ab68-7c99-4c8a-aa02-586afe528f28")
+	)
+	(wire
+		(pts
+			(xy 30.48 144.78) (xy 30.48 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10f99ebb-21f6-480a-aad0-876bb1e9fb6f")
+	)
+	(wire
+		(pts
+			(xy 191.77 106.68) (xy 191.77 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "121e7a27-68b4-413f-83f5-e9f63f4e6cf5")
+	)
+	(wire
+		(pts
+			(xy 52.07 93.98) (xy 52.07 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13ef8e24-421f-4fb4-b9cd-b119553d3dd1")
+	)
+	(wire
+		(pts
+			(xy 80.01 86.36) (xy 95.25 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "197f39f1-1249-4292-b8f4-85566fdf784f")
+	)
+	(wire
+		(pts
+			(xy 59.69 77.47) (xy 59.69 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2094f159-80fc-4f51-9365-f2cc773fe76c")
+	)
+	(wire
+		(pts
+			(xy 82.55 58.42) (xy 100.33 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "213f5bec-f02d-4710-837a-67149628e6ae")
+	)
+	(wire
+		(pts
+			(xy 110.49 99.06) (xy 110.49 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "242b0e5b-5d60-4a6a-bfeb-8f461493c4f0")
+	)
+	(wire
+		(pts
+			(xy 129.54 128.27) (xy 144.78 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "283c5594-50d9-46e4-85d5-a99c746be707")
+	)
+	(wire
+		(pts
+			(xy 177.8 146.05) (xy 177.8 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b6fc28c-b406-491e-ae79-6f40f22c2ae6")
+	)
+	(wire
+		(pts
+			(xy 176.53 86.36) (xy 191.77 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c4c190e-921d-4e5c-87d6-dd8de70fe09d")
+	)
+	(wire
+		(pts
+			(xy 29.21 80.01) (xy 29.21 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2da7bc70-2bd8-4f8f-8963-897cec5f2860")
+	)
+	(wire
+		(pts
+			(xy 104.14 139.7) (xy 104.14 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "305e8519-8f78-4ed5-b24b-83eaa1486c5d")
+	)
+	(wire
+		(pts
+			(xy 199.39 95.25) (xy 199.39 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "351dd4f6-a003-494c-90cd-338a6c09129f")
+	)
+	(wire
+		(pts
+			(xy 177.8 151.13) (xy 193.04 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37327834-4e6b-4117-8c34-1ff331bf69b8")
+	)
+	(wire
+		(pts
+			(xy 44.45 85.09) (xy 44.45 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3be1e24c-4b72-4cc8-b684-067b3ed6a438")
+	)
+	(wire
+		(pts
+			(xy 179.07 58.42) (xy 196.85 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "426bb8a7-7c37-428b-8206-bc8cdd55fc18")
+	)
+	(wire
+		(pts
+			(xy 59.69 97.79) (xy 59.69 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4490c15b-754c-4954-a873-620c436c5acb")
+	)
+	(wire
+		(pts
+			(xy 144.78 128.27) (xy 144.78 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cd3c31a-42ec-402e-af03-28f05395d988")
+	)
+	(wire
+		(pts
+			(xy 143.51 85.09) (xy 143.51 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cf95d8e-ae63-4115-9f4f-9de5a48c4b05")
+	)
+	(wire
+		(pts
+			(xy 95.25 106.68) (xy 95.25 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d787743-0baf-4feb-82f1-4a1cc78a1d9a")
+	)
+	(wire
+		(pts
+			(xy 152.4 116.84) (xy 152.4 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e4a1706-ed59-4451-a4e8-97f9037b9a45")
+	)
+	(wire
+		(pts
+			(xy 111.76 143.51) (xy 111.76 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53244482-1afb-40a1-b62e-e4a104024369")
+	)
+	(wire
+		(pts
+			(xy 151.13 93.98) (xy 151.13 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55ed800d-4ae6-4ea4-8d41-ccb3992c598a")
+	)
+	(wire
+		(pts
+			(xy 128.27 105.41) (xy 143.51 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56b7f526-3e90-48a6-aec7-21b4fa5f0271")
+	)
+	(wire
+		(pts
+			(xy 96.52 151.13) (xy 96.52 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5af04b5d-aa9c-49d1-a1eb-075ad2ffa368")
+	)
+	(wire
+		(pts
+			(xy 143.51 105.41) (xy 143.51 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fc0083c-36a2-4336-9dec-32d6aac3da46")
+	)
+	(wire
+		(pts
+			(xy 80.01 101.6) (xy 80.01 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6007a311-95ff-464e-9dd8-3b6c8a9fdd55")
+	)
+	(wire
+		(pts
+			(xy 193.04 129.54) (xy 193.04 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64476f66-75d8-4505-8097-c55e12445985")
+	)
+	(wire
+		(pts
+			(xy 128.27 80.01) (xy 128.27 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "676fceef-9b84-4d0d-afac-fb9ffb034bfb")
+	)
+	(wire
+		(pts
+			(xy 30.48 128.27) (xy 45.72 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68fc344b-c232-43b2-ad30-6a503eff474a")
+	)
+	(wire
+		(pts
+			(xy 81.28 124.46) (xy 81.28 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c4d079d-730f-4035-9182-f8f7447dbddd")
+	)
+	(wire
+		(pts
+			(xy 53.34 138.43) (xy 53.34 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c9a1b4d-be6d-467b-bbaa-dd36706c17a5")
+	)
+	(wire
+		(pts
+			(xy 177.8 129.54) (xy 193.04 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70c4fbf9-9911-4262-8c38-7bb7a7f385c8")
+	)
+	(wire
+		(pts
+			(xy 176.53 81.28) (xy 176.53 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78c2a592-b047-452e-b6a7-581a3d99dd5b")
+	)
+	(wire
+		(pts
+			(xy 60.96 142.24) (xy 60.96 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ee516b2-6ec0-4803-8470-97414049492b")
+	)
+	(wire
+		(pts
+			(xy 81.28 146.05) (xy 81.28 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f6b1cd9-ed43-40e1-bc03-2e8e603a70ed")
+	)
+	(wire
+		(pts
+			(xy 130.81 57.15) (xy 148.59 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8891e7ba-11a9-41b1-a1d0-e27d5352fe8a")
+	)
+	(wire
+		(pts
+			(xy 95.25 86.36) (xy 95.25 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ba73471-63c1-4b71-9b18-ca3a1d7c78a8")
+	)
+	(wire
+		(pts
+			(xy 45.72 149.86) (xy 45.72 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "903cc820-a333-4a58-90ca-f6a110774f0e")
+	)
+	(wire
+		(pts
+			(xy 158.75 77.47) (xy 158.75 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97718e2e-d737-4a5b-89b6-be6122ad543b")
+	)
+	(wire
+		(pts
+			(xy 177.8 124.46) (xy 177.8 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a52ff08-5b83-4666-a579-c15e1d36922c")
+	)
+	(wire
+		(pts
+			(xy 30.48 149.86) (xy 45.72 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9caad7ae-c09c-4de1-8f5b-1fe1c9b62cf2")
+	)
+	(wire
+		(pts
+			(xy 148.59 57.15) (xy 148.59 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d54a926-484b-404d-a4c8-2330ab062b5a")
+	)
+	(wire
+		(pts
+			(xy 111.76 121.92) (xy 111.76 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9df8bed0-1b27-49c3-8f48-bba871567c91")
+	)
+	(wire
+		(pts
+			(xy 129.54 149.86) (xy 144.78 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e76a167-bddf-48bb-bf10-2d19d970841f")
+	)
+	(wire
+		(pts
+			(xy 200.66 139.7) (xy 200.66 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fa318c2-0e40-45bc-bffc-440f15ba2e20")
+	)
+	(wire
+		(pts
+			(xy 29.21 100.33) (xy 29.21 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0c5c78a-7b8f-4ad0-a185-0607fb7df9f5")
+	)
+	(wire
+		(pts
+			(xy 129.54 144.78) (xy 129.54 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a76667b3-6be4-44ac-a082-25d151fc89c8")
+	)
+	(wire
+		(pts
+			(xy 196.85 58.42) (xy 196.85 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7c71c50-904c-400c-8c13-2e11ff1de657")
+	)
+	(wire
+		(pts
+			(xy 31.75 57.15) (xy 49.53 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aba5ff65-5af2-4e71-8713-16bcc686e840")
+	)
+	(wire
+		(pts
+			(xy 81.28 151.13) (xy 96.52 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b666b400-8810-4b76-a971-4debd82fdf8f")
+	)
+	(wire
+		(pts
+			(xy 158.75 97.79) (xy 158.75 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6da934e-dfb0-4d26-93a5-5b39d35db301")
+	)
+	(wire
+		(pts
+			(xy 80.01 106.68) (xy 95.25 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b995aee0-47e5-4a89-8157-f37776cef351")
+	)
+	(wire
+		(pts
+			(xy 144.78 149.86) (xy 144.78 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfc78c92-46a8-4908-a65a-19cca204d0cb")
+	)
+	(wire
+		(pts
+			(xy 207.01 78.74) (xy 207.01 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfe3b92f-19df-43d9-91ed-3d32501961fb")
+	)
+	(wire
+		(pts
+			(xy 151.13 73.66) (xy 151.13 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d03483b6-6739-4a3b-b9db-47fe3ca5a40c")
+	)
+	(wire
+		(pts
+			(xy 104.14 118.11) (xy 104.14 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d279b291-ffcf-45b9-afca-db4b79afb89c")
+	)
+	(wire
+		(pts
+			(xy 160.02 120.65) (xy 160.02 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d35173c5-d8c4-42b5-9b38-e395f99493e9")
+	)
+	(wire
+		(pts
+			(xy 176.53 101.6) (xy 176.53 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5788f3f-8e0a-4480-a538-a5ffef5453cb")
+	)
+	(wire
+		(pts
+			(xy 208.28 143.51) (xy 208.28 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d858c2de-b911-48a7-8908-27a13a9bdafe")
+	)
+	(wire
+		(pts
+			(xy 152.4 138.43) (xy 152.4 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9cdbea3-535f-4d1e-a94e-0b52b849d0ab")
+	)
+	(wire
+		(pts
+			(xy 129.54 123.19) (xy 129.54 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc4128ef-a213-4178-b6d3-746336b739e7")
+	)
+	(wire
+		(pts
+			(xy 102.87 74.93) (xy 102.87 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddb09f42-0a7b-437c-a87d-18faf8abe880")
+	)
+	(wire
+		(pts
+			(xy 128.27 100.33) (xy 128.27 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfb39da2-4242-44b6-b95d-53afcf0ed422")
+	)
+	(wire
+		(pts
+			(xy 102.87 95.25) (xy 102.87 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0d95a04-bd2d-4d08-a273-7db1f45ed5e8")
+	)
+	(wire
+		(pts
+			(xy 44.45 105.41) (xy 44.45 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e105d2fc-72d4-4772-b626-22cacf133b9a")
+	)
+	(wire
+		(pts
+			(xy 128.27 85.09) (xy 143.51 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1bc28ae-a0a2-447a-b51a-93b4b1d19c31")
+	)
+	(wire
+		(pts
+			(xy 29.21 105.41) (xy 44.45 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3b6ecc4-be1f-4e9b-9093-9babff8a6dcb")
+	)
+	(wire
+		(pts
+			(xy 176.53 106.68) (xy 191.77 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4db73e6-60f0-4880-a2b6-d4afa6bfc62a")
+	)
+	(wire
+		(pts
+			(xy 49.53 57.15) (xy 49.53 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e66a2123-805b-4dd4-b2c1-5587e87815e7")
+	)
+	(wire
+		(pts
+			(xy 160.02 142.24) (xy 160.02 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e71f7376-a0ec-454a-916c-697b75094774")
+	)
+	(wire
+		(pts
+			(xy 207.01 99.06) (xy 207.01 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7d1c2f5-13bf-40f2-aaa9-d2c035772ace")
+	)
+	(wire
+		(pts
+			(xy 80.01 81.28) (xy 80.01 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea1a135c-ce5e-43ec-a5c0-8628181c4632")
+	)
+	(wire
+		(pts
+			(xy 30.48 123.19) (xy 30.48 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eff7c2c9-8f46-4fce-9c30-13e66fdc26ab")
+	)
+	(wire
+		(pts
+			(xy 208.28 121.92) (xy 208.28 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f02a79e3-fa0d-4882-b1d9-490c339feed7")
+	)
+	(wire
+		(pts
+			(xy 110.49 78.74) (xy 110.49 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc3ef83c-143d-420f-b996-c77121e4b5d4")
+	)
+	(wire
+		(pts
+			(xy 45.72 128.27) (xy 45.72 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd82811f-a59b-4acf-8e89-4e7c20375177")
+	)
+	(wire
+		(pts
+			(xy 52.07 73.66) (xy 52.07 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff078177-2067-4121-884f-780de4b00ee8")
+	)
+	(hierarchical_label "PC1"
+		(shape input)
+		(at 152.4 138.43 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0e5e1d7c-a24f-43ce-baaa-a62cd843fc18")
+	)
+	(hierarchical_label "PC3"
+		(shape input)
+		(at 199.39 95.25 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2d3c6ea4-0692-4cd0-9d76-523e2ac7b5eb")
+	)
+	(hierarchical_label "A14"
+		(shape input)
+		(at 177.8 119.38 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2df1e1fe-d1c5-47cf-82a3-7c0852fee868")
+	)
+	(hierarchical_label "A11"
+		(shape input)
+		(at 129.54 139.7 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "36acdc74-1ab4-4635-8042-e8b3c09675bb")
+	)
+	(hierarchical_label "PC5"
+		(shape input)
+		(at 200.66 139.7 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4809c52f-e5e1-4ee5-878e-e5ebac853933")
+	)
+	(hierarchical_label "PC4"
+		(shape input)
+		(at 200.66 118.11 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "52ae0122-2cda-4af2-963b-70a1e9061ece")
+	)
+	(hierarchical_label "PA0"
+		(shape input)
+		(at 52.07 73.66 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5b3c299e-9015-4f21-a5b0-5d069fcf8556")
+	)
+	(hierarchical_label "A1"
+		(shape input)
+		(at 29.21 95.25 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "676e560a-d6cf-484f-b79e-30dfa5498a5c")
+	)
+	(hierarchical_label "PC0"
+		(shape input)
+		(at 152.4 116.84 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6ad8b85e-9f9c-4e0f-9f46-90ecd49a8abc")
+	)
+	(hierarchical_label "A12"
+		(shape input)
+		(at 176.53 76.2 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6ccfce0d-f02a-42ae-b391-0b6c4b2f94a0")
+	)
+	(hierarchical_label "A2"
+		(shape input)
+		(at 30.48 118.11 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7180c4f9-7845-4ed3-b5ca-b4eff09a1bf1")
+	)
+	(hierarchical_label "PB1"
+		(shape input)
+		(at 151.13 93.98 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7653124c-84ea-4764-bb87-76153c19c90d")
+	)
+	(hierarchical_label "A15"
+		(shape input)
+		(at 177.8 140.97 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7a04e813-0a19-4405-b932-4ba116eb7b83")
+	)
+	(hierarchical_label "PA4"
+		(shape input)
+		(at 102.87 74.93 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7a71ec78-8973-4107-8ba4-bcdbda2ded35")
+	)
+	(hierarchical_label "A13"
+		(shape input)
+		(at 176.53 96.52 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7eeaf347-7758-4899-959e-ef29e66241a3")
+	)
+	(hierarchical_label "A8"
+		(shape input)
+		(at 128.27 74.93 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8e159c49-f34d-4faf-9239-6101183696e8")
+	)
+	(hierarchical_label "A0"
+		(shape input)
+		(at 29.21 74.93 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a004290b-6e2b-4066-aa6e-d134fd254c62")
+	)
+	(hierarchical_label "A4"
+		(shape input)
+		(at 80.01 76.2 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a3d817d4-0336-4970-bef7-af95fdca25d5")
+	)
+	(hierarchical_label "PA7"
+		(shape input)
+		(at 104.14 139.7 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a46b1e12-6350-436e-9aae-1ec4ed06b64d")
+	)
+	(hierarchical_label "PB0"
+		(shape input)
+		(at 151.13 73.66 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ab377836-622b-4069-b045-f3f9662e41e0")
+	)
+	(hierarchical_label "A10"
+		(shape input)
+		(at 129.54 118.11 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "acd3b5f0-23cc-420a-b910-2f46645050f7")
+	)
+	(hierarchical_label "PA5"
+		(shape input)
+		(at 102.87 95.25 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b07ebf58-de3d-4a47-970f-59965a820aa8")
+	)
+	(hierarchical_label "PA3"
+		(shape input)
+		(at 53.34 138.43 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c38a4b85-1a88-424f-9e64-6fa1d0f864a8")
+	)
+	(hierarchical_label "PA1"
+		(shape input)
+		(at 52.07 93.98 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c47ae7e6-0ef2-41d0-9a35-de5dd5793141")
+	)
+	(hierarchical_label "PA6"
+		(shape input)
+		(at 104.14 118.11 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cac47df7-60d5-4ac9-b470-c26e72cb5b44")
+	)
+	(hierarchical_label "PA2"
+		(shape input)
+		(at 53.34 116.84 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cc173ddf-156d-44e8-88ae-c75f0115f48e")
+	)
+	(hierarchical_label "A7"
+		(shape input)
+		(at 81.28 140.97 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d3c7766a-9d5a-48db-b949-9b38a54348d0")
+	)
+	(hierarchical_label "PC2"
+		(shape input)
+		(at 199.39 74.93 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "da994766-1a6f-4e49-b08c-35965a81a22f")
+	)
+	(hierarchical_label "A3"
+		(shape input)
+		(at 30.48 139.7 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e4dfd442-f4f8-4c61-90b0-426d880a400b")
+	)
+	(hierarchical_label "A9"
+		(shape input)
+		(at 128.27 95.25 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f21d71d7-56c9-4ad8-bbe3-d9c3c6af0fab")
+	)
+	(hierarchical_label "A5"
+		(shape input)
+		(at 80.01 96.52 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fb433762-009b-43e8-bcb5-b6d0997f093d")
+	)
+	(hierarchical_label "A6"
+		(shape input)
+		(at 81.28 119.38 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ff8d9940-24d1-4619-9980-7f48ec291276")
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:MCP6004")
+		(at 36.83 97.79 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0081ff06-b7f2-46df-94a9-86d0fa94f0ce")
+		(property "Reference" "U2"
+			(at 36.83 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MCP6004"
+			(at 36.83 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MCP6004T_I_SL:SOIC127P600X175-14N"
+			(at 35.56 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf"
+			(at 38.1 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1MHz, Low-Power Op Amp, DIP-14/SOIC-14/TSSOP-14"
+			(at 36.83 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "13"
+			(uuid "7146e864-fa2e-4b41-8fe4-7fed2cdaf1a9")
+		)
+		(pin "6"
+			(uuid "a4a2796d-0770-4ea2-972c-403b13273012")
+		)
+		(pin "14"
+			(uuid "27ddfbee-6ad8-4c51-8aa9-eae6d6dc55dc")
+		)
+		(pin "10"
+			(uuid "b2ce5fd4-04e1-4ac6-a992-451efd48f224")
+		)
+		(pin "5"
+			(uuid "246e9713-c2ef-474c-a188-5b785ac3d8f7")
+		)
+		(pin "3"
+			(uuid "72507bf8-dbac-439e-a95a-55dd7451f651")
+		)
+		(pin "12"
+			(uuid "48da91fb-79c4-4014-975f-961d79868a75")
+		)
+		(pin "11"
+			(uuid "c55fb1ca-716c-41ca-aaab-a37cc503acb5")
+		)
+		(pin "1"
+			(uuid "8c417892-bb91-41bc-aeb3-2cebc30bdd0b")
+		)
+		(pin "2"
+			(uuid "1fe55a04-2739-4637-8762-74c4e2c632c1")
+		)
+		(pin "7"
+			(uuid "5967cf90-369b-4091-a39c-6e47f84dcd66")
+		)
+		(pin "4"
+			(uuid "fb570115-12cd-4fa2-bb69-611c5ee10d9b")
+		)
+		(pin "9"
+			(uuid "353a4da7-63b6-41a4-bb58-4f5d62c59c9d")
+		)
+		(pin "8"
+			(uuid "c4f6b031-8abe-4cf3-8b60-07fb6cd45792")
+		)
+		(instances
+			(project "STM32F407_Mega_converter"
+				(path "/13bac97d-dc11-4d74-840a-36e58dc3eaa0/59169af3-3b8b-410b-ace3-72b012c5358b"
+					(reference "U2")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 82.55 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "00ad9cdb-5ff0-45f9-8388-aa3c002c921b")
+		(property "Reference" "#PWR022"
+			(at 82.55 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 82.55 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 82.55 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 82.55 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 82.55 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9e22d7fc-2c8a-4c5c-9d2f-4c60c42024c8")
+		)
+		(instances
+			(project "STM32F407_Mega_converter"
+				(path "/13bac97d-dc11-4d74-840a-36e58dc3eaa0/59169af3-3b8b-410b-ace3-72b012c5358b"
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 55.88 97.79 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "01b58f49-eda3-4000-82da-337d7439acd9")
+		(property "Reference" "R8"
+			(at 55.88 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "910"
+			(at 55.88 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 55.88 99.568 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 55.88 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 55.88 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4da224c7-af0c-40cf-ae81-0924ee758261")
+		)
+		(pin "2"
+			(uuid "bad3e879-5a4c-41b9-9551-d229b4e31df5")
+		)
+		(instances
+			(project "STM32F407_Mega_converter"
+				(path "/13bac97d-dc11-4d74-840a-36e58dc3eaa0/59169af3-3b8b-410b-ace3-72b012c5358b"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 154.94 77.47 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "02ab6be0-7a0c-4c57-ad45-a37fa4272ce3")
+		(property "Reference" "R23"
+			(at 154.94 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "910"
+			(at 154.94 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 154.94 79.248 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 154.94 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 154.94 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1af2868f-6159-441f-9114-d77053a181b0")
+		)
+		(pin "2"
+			(uuid "12a73d3c-34b0-4a6d-808b-4d5a6b2dbc1f")
+		)
+		(instances
+			(project "STM32F407_Mega_converter"
+				(path "/13bac97d-dc11-4d74-840a-36e58dc3eaa0/59169af3-3b8b-410b-ace3-72b012c5358b"
+					(reference "R23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 100.33 143.51 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "04f52118-4eb7-4bb9-b64e-0294ea111525")
+		(property "Reference" "R14"
+			(at 100.33 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "470"
+			(at 100.33 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 100.33 141.732 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 100.33 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 100.33 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5f2dad38-3d0c-4ef6-86da-e9f926c612b5")
+		)
+		(pin "2"
+			(uuid "8c0f3271-65ff-465d-8819-1fc3112ab855")
+		)
+		(instances
+			(project "STM32F407_Mega_converter"
+				(path "/13bac97d-dc11-4d74-840a-36e58dc3eaa0/59169af3-3b8b-410b-ace3-72b012c5358b"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 148.59 142.24 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "16305ece-d0cf-4e1d-8d5e-aef854ff9717")
+		(property "Reference" "R22"
+			(at 148.59 135.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "470"
+			(at 148.59 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 148.59 140.462 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 148.59 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 148.59 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c3353777-eba2-4dc8-818a-866c638f3039")
+		)
+		(pin "2"
+			(uuid "8d02c492-03ea-41d7-8f35-d46c0baf323c")
+		)
+		(instances
+			(project "STM32F407_Mega_converter"
+				(path "/13bac97d-dc11-4d74-840a-36e58dc3eaa0/59169af3-3b8b-410b-ace3-72b012c5358b"
+					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 49.53 120.65 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "19c9ccbf-b4bb-4e18-b315-b53f264b919f")
+		(property "Reference" "R5"
+			(at 49.53 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "470"
+			(at 49.53 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 49.53 118.872 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 49.53 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 49.53 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4a973285-53bf-41a8-b49f-addb67b0975c")
+		)
+		(pin "2"
+			(uuid "a7186f36-84b6-4cd1-9682-e32ee1def267")
+		)
+		(instances
+			(project "STM32F407_Mega_converter"
+				(path "/13bac97d-dc11-4d74-840a-36e58dc3eaa0/59169af3-3b8b-410b-ace3-72b012c5358b"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
+		(at 148.59 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1d7357f6-ce87-4020-8252-bebccd11cf2f")
+		(property "Reference" "#PWR029"
+			(at 148.59 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Earth"
+			(at 148.59 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 148.59 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 148.59 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 148.59 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d3bb35e1-fc95-4f2d-a30b-e75e095e763b")
+		)
+		(instances
+			(project "STM32F407_Mega_converter"
+				(path "/13bac97d-dc11-4d74-840a-36e58dc3eaa0/59169af3-3b8b-410b-ace3-72b012c5358b"
+					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
+		(at 158.75 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "20a55e80-15b7-4d3e-ac31-2d2ec59c5422")
+		(property "Reference" "#PWR031"
+			(at 158.75 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Earth"
+			(at 158.75 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 158.75 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 158.75 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 158.75 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "27238250-d701-4420-80f3-3a8d997596f9")
+		)
+		(instances
+			(project "STM32F407_Mega_converter"
+				(path "/13bac97d-dc11-4d74-840a-36e58dc3eaa0/59169af3-3b8b-410b-ace3-72b012c5358b"
+					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:MCP6004")
+		(at 88.9 121.92 0)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "23fdb737-e4c5-40d7-b303-0cf1ed3cabf2")
+		(property "Reference" "U4"
+			(at 88.9 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MCP6004"
+			(at 88.9 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MCP6004T_I_SL:SOIC127P600X175-14N"
+			(at 87.63 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf"
+			(at 90.17 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1MHz, Low-Power Op Amp, DIP-14/SOIC-14/TSSOP-14"
+			(at 88.9 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "13"
+			(uuid "90dff545-db14-44a0-9b9a-0f4b4b0a5782")
+		)
+		(pin "6"
+			(uuid "5eec59f7-4063-410e-80f1-ba5d952a7c7f")
+		)
+		(pin "14"
+			(uuid "f259e57a-c43d-4de2-b107-bb791a39ff2f")
+		)
+		(pin "10"
+			(uuid "b2ce5fd4-04e1-4ac6-a992-451efd48f22c")
+		)
+		(pin "5"
+			(uuid "4f57f286-0ba5-44cb-b05a-b3b3e807fabe")
+		)
+		(pin "3"
+			(uuid "72507bf8-dbac-439e-a95a-55dd7451f659")
+		)
+		(pin "12"
+			(uuid "419fa318-f0e0-420d-89a4-96b7b36140ba")
+		)
+		(pin "11"
+			(uuid "c55fb1ca-716c-41ca-aaab-a37cc503acbe")
+		)
+		(pin "1"
+			(uuid "8c417892-bb91-41bc-aeb3-2cebc30bdd13")
+		)
+		(pin "2"
+			(uuid "1fe55a04-2739-4637-8762-74c4e2c632c9")
+		)
+		(pin "7"
+			(uuid "a7b72803-b4ac-44b2-af16-88612e905c2f")
+		)
+		(pin "4"
+			(uuid "fb570115-12cd-4fa2-bb69-611c5ee10da4")
+		)
+		(pin "9"
+			(uuid "353a4da7-63b6-41a4-bb58-4f5d62c59ca5")
+		)
+		(pin "8"
+			(uuid "c4f6b031-8abe-4cf3-8b60-07fb6cd4579a")
+		)
+		(instances
+			(project "STM32F407_Mega_converter"
+				(path "/13bac97d-dc11-4d74-840a-36e58dc3eaa0/59169af3-3b8b-410b-ace3-72b012c5358b"
+					(reference "U4")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:MCP6004")
+		(at 87.63 99.06 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2702c2fa-3807-44a3-9ba6-f3114f9b5d80")
+		(property "Reference" "U4"
+			(at 87.63 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MCP6004"
+			(at 87.63 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MCP6004T_I_SL:SOIC127P600X175-14N"
+			(at 86.36 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf"
+			(at 88.9 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1MHz, Low-Power Op Amp, DIP-14/SOIC-14/TSSOP-14"
+			(at 87.63 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "13"
+			(uuid "7146e864-fa2e-4b41-8fe4-7fed2cdaf1ae")
+		)
+		(pin "6"
+			(uuid "b659fa88-8236-470a-a65b-d2c83686b9fe")
+		)
+		(pin "14"
+			(uuid "27ddfbee-6ad8-4c51-8aa9-eae6d6dc55e1")
+		)
+		(pin "10"
+			(uuid "b2ce5fd4-04e1-4ac6-a992-451efd48f229")
+		)
+		(pin "5"
+			(uuid "1f77e226-9edb-4193-8090-09033171f01f")
+		)
+		(pin "3"
+			(uuid "72507bf8-dbac-439e-a95a-55dd7451f657")
+		)
+		(pin "12"
+			(uuid "48da91fb-79c4-4014-975f-961d79868a7a")
+		)
+		(pin "11"
+			(uuid "c55fb1ca-716c-41ca-aaab-a37cc503acbb")
+		)
+		(pin "1"
+			(uuid "8c417892-bb91-41bc-aeb3-2cebc30bdd11")
+		)
+		(pin "2"
+			(uuid "1fe55a04-2739-4637-8762-74c4e2c632c7")
+		)
+		(pin "7"
+			(uuid "ef6c76b1-e3dd-4755-9973-086358f0af40")
+		)
+		(pin "4"
+			(uuid "fb570115-12cd-4fa2-bb69-611c5ee10da1")
+		)
+		(pin "9"
+			(uuid "353a4da7-63b6-41a4-bb58-4f5d62c59ca2")
+		)
+		(pin "8"
+			(uuid "c4f6b031-8abe-4cf3-8b60-07fb6cd45797")
+		)
+		(instances
+			(project "STM32F407_Mega_converter"
+				(path "/13bac97d-dc11-4d74-840a-36e58dc3eaa0/59169af3-3b8b-410b-ace3-72b012c5358b"
+					(reference "U4")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:MCP6004")
+		(at 185.42 121.92 0)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "29eecb0c-6dc0-4887-a509-225ebadeadc4")
+		(property "Reference" "U6"
+			(at 185.42 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MCP6004"
+			(at 185.42 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MCP6004T_I_SL:SOIC127P600X175-14N"
+			(at 184.15 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf"
+			(at 186.69 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1MHz, Low-Power Op Amp, DIP-14/SOIC-14/TSSOP-14"
+			(at 185.42 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "13"
+			(uuid "fe01c8b0-825d-430b-8c66-2c562b01c607")
+		)
+		(pin "6"
+			(uuid "5eec59f7-4063-410e-80f1-ba5d952a7c87")
+		)
+		(pin "14"
+			(uuid "9be2d3c6-b947-451e-bf0f-9ef91dcad0bc")
+		)
+		(pin "10"
+			(uuid "b2ce5fd4-04e1-4ac6-a992-451efd48f232")
+		)
+		(pin "5"
+			(uuid "4f57f286-0ba5-44cb-b05a-b3b3e807fac6")
+		)
+		(pin "3"
+			(uuid "72507bf8-dbac-439e-a95a-55dd7451f65f")
+		)
+		(pin "12"
+			(uuid "264fbd2a-56e0-4366-bf0f-7fe1ea5b9aac")
+		)
+		(pin "11"
+			(uuid "c55fb1ca-716c-41ca-aaab-a37cc503acc5")
+		)
+		(pin "1"
+			(uuid "8c417892-bb91-41bc-aeb3-2cebc30bdd19")
+		)
+		(pin "2"
+			(uuid "1fe55a04-2739-4637-8762-74c4e2c632cf")
+		)
+		(pin "7"
+			(uuid "a7b72803-b4ac-44b2-af16-88612e905c37")
+		)
+		(pin "4"
+			(uuid "fb570115-12cd-4fa2-bb69-611c5ee10dab")
+		)
+		(pin "9"
+			(uuid "353a4da7-63b6-41a4-bb58-4f5d62c59cab")
+		)
+		(pin "8"
+			(uuid "c4f6b031-8abe-4cf3-8b60-07fb6cd457a0")
+		)
+		(instances
+			(project "STM32F407_Mega_converter"
+				(path "/13bac97d-dc11-4d74-840a-36e58dc3eaa0/59169af3-3b8b-410b-ace3-72b012c5358b"
+					(reference "U6")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
+		(at 196.85 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2c2a3079-8527-4760-84b4-07b6e3835072")
+		(property "Reference" "#PWR035"
+			(at 196.85 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Earth"
+			(at 196.85 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 196.85 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 196.85 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 196.85 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3f25c24c-9322-409a-b955-2f515e425878")
+		)
+		(instances
+			(project "STM32F407_Mega_converter"
+				(path "/13bac97d-dc11-4d74-840a-36e58dc3eaa0/59169af3-3b8b-410b-ace3-72b012c5358b"
+					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
+		(at 100.33 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "347a437b-181c-468f-b8b8-8caba7e7b8cc")
+		(property "Reference" "#PWR023"
+			(at 100.33 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Earth"
+			(at 100.33 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.33 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 100.33 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 100.33 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b3d4fbe9-4904-4ff4-85c1-231bf332c020")
+		)
+		(instances
+			(project "STM32F407_Mega_converter"
+				(path "/13bac97d-dc11-4d74-840a-36e58dc3eaa0/59169af3-3b8b-410b-ace3-72b012c5358b"
+					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
+		(at 59.69 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "36482ba8-7569-4448-9d24-f18491419094")
+		(property "Reference" "#PWR018"
+			(at 59.69 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Earth"
+			(at 59.69 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 59.69 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 59.69 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 59.69 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6261b0d9-5eae-43f5-b033-d74a28231cf3")
+		)
+		(instances
+			(project "STM32F407_Mega_converter"
+				(path "/13bac97d-dc11-4d74-840a-36e58dc3eaa0/59169af3-3b8b-410b-ace3-72b012c5358b"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 57.15 120.65 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "37899c6e-a8f3-49bf-87fa-a59fe8ffad89")
+		(property "Reference" "R9"
+			(at 57.15 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "910"
+			(at 57.15 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 57.15 122.428 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 57.15 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 57.15 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2a451bbb-7ee3-4328-88d8-569c7a1bcbba")
+		)
+		(pin "2"
+			(uuid "d48f7a83-ff31-4c63-9bf7-7d58aa8e2e61")
+		)
+		(instances
+			(project "STM32F407_Mega_converter"
+				(path "/13bac97d-dc11-4d74-840a-36e58dc3eaa0/59169af3-3b8b-410b-ace3-72b012c5358b"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 154.94 97.79 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3c663b52-190d-4135-ab14-1e353a213b07")
+		(property "Reference" "R24"
+			(at 154.94 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "910"
+			(at 154.94 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 154.94 99.568 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 154.94 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 154.94 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "079476bd-66da-401a-87b9-cdd6d428bb23")
+		)
+		(pin "2"
+			(uuid "e4a166d5-b5c0-46fe-81d5-69d7574c90fd")
+		)
+		(instances
+			(project "STM32F407_Mega_converter"
+				(path "/13bac97d-dc11-4d74-840a-36e58dc3eaa0/59169af3-3b8b-410b-ace3-72b012c5358b"
+					(reference "R24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 156.21 142.24 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3d810848-755e-4ab4-9caf-aabbe7d5956a")
+		(property "Reference" "R26"
+			(at 156.21 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "910"
+			(at 156.21 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 156.21 144.018 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 156.21 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 156.21 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6b1d2275-c450-4528-874f-2cb4f064c8de")
+		)
+		(pin "2"
+			(uuid "9f8baae1-9d09-4760-b28e-19aca997177f")
+		)
+		(instances
+			(project "STM32F407_Mega_converter"
+				(path "/13bac97d-dc11-4d74-840a-36e58dc3eaa0/59169af3-3b8b-410b-ace3-72b012c5358b"
+					(reference "R26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 107.95 121.92 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "43bffbf5-9295-40f0-8d2b-3bcadee4e6dd")
+		(property "Reference" "R17"
+			(at 107.95 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "910"
+			(at 107.95 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 107.95 123.698 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 107.95 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 107.95 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8db1feb1-426a-453b-8291-d206386cbb3e")
+		)
+		(pin "2"
+			(uuid "69d7c7dd-a222-4a7f-93f8-1bfdc11daaa1")
+		)
+		(instances
+			(project "STM32F407_Mega_converter"
+				(path "/13bac97d-dc11-4d74-840a-36e58dc3eaa0/59169af3-3b8b-410b-ace3-72b012c5358b"
+					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 48.26 77.47 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4499af6b-639a-40fb-8d37-4aeafa141c0b")
+		(property "Reference" "R3"
+			(at 48.26 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "470"
+			(at 48.26 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 48.26 75.692 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 48.26 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 48.26 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4bdfbf82-f703-4571-82a0-4fd602354247")
+		)
+		(pin "2"
+			(uuid "130631e0-68de-4804-98e5-a90b24f957bc")
+		)
+		(instances
+			(project "STM32F407_Mega_converter"
+				(path "/13bac97d-dc11-4d74-840a-36e58dc3eaa0/59169af3-3b8b-410b-ace3-72b012c5358b"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:MCP6004")
+		(at 184.15 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4720b1ff-21af-4b0a-bdd9-872039153965")
+		(property "Reference" "U6"
+			(at 184.15 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MCP6004"
+			(at 184.15 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MCP6004T_I_SL:SOIC127P600X175-14N"
+			(at 182.88 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf"
+			(at 185.42 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1MHz, Low-Power Op Amp, DIP-14/SOIC-14/TSSOP-14"
+			(at 184.15 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "13"
+			(uuid "7146e864-fa2e-4b41-8fe4-7fed2cdaf1b1")
+		)
+		(pin "6"
+			(uuid "5eec59f7-4063-410e-80f1-ba5d952a7c80")
+		)
+		(pin "14"
+			(uuid "27ddfbee-6ad8-4c51-8aa9-eae6d6dc55e4")
+		)
+		(pin "10"
+			(uuid "b2ce5fd4-04e1-4ac6-a992-451efd48f22d")
+		)
+		(pin "5"
+			(uuid "4f57f286-0ba5-44cb-b05a-b3b3e807fabf")
+		)
+		(pin "3"
+			(uuid "afd0529e-fb80-4027-b4be-9d94d3926a8d")
+		)
+		(pin "12"
+			(uuid "48da91fb-79c4-4014-975f-961d79868a7d")
+		)
+		(pin "11"
+			(uuid "c55fb1ca-716c-41ca-aaab-a37cc503acbf")
+		)
+		(pin "1"
+			(uuid "b962c299-b84d-421b-89f6-84c7982e5a70")
+		)
+		(pin "2"
+			(uuid "3e887797-a096-4f25-b4f2-86f0cee7c2b6")
+		)
+		(pin "7"
+			(uuid "a7b72803-b4ac-44b2-af16-88612e905c30")
+		)
+		(pin "4"
+			(uuid "fb570115-12cd-4fa2-bb69-611c5ee10da5")
+		)
+		(pin "9"
+			(uuid "353a4da7-63b6-41a4-bb58-4f5d62c59ca6")
+		)
+		(pin "8"
+			(uuid "c4f6b031-8abe-4cf3-8b60-07fb6cd4579b")
+		)
+		(instances
+			(project "STM32F407_Mega_converter"
+				(path "/13bac97d-dc11-4d74-840a-36e58dc3eaa0/59169af3-3b8b-410b-ace3-72b012c5358b"
+					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
+		(at 60.96 143.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "47f5b1ec-b563-48eb-ad1a-146d43230970")
+		(property "Reference" "#PWR021"
+			(at 60.96 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Earth"
+			(at 60.96 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.96 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 60.96 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 60.96 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5ec89a66-373e-4212-a70f-4b6874c44363")
+		)
+		(instances
+			(project "STM32F407_Mega_converter"
+				(path "/13bac97d-dc11-4d74-840a-36e58dc3eaa0/59169af3-3b8b-410b-ace3-72b012c5358b"
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 204.47 121.92 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4cc99ba9-c0bd-4ae1-8be7-9dbaefea5880")
+		(property "Reference" "R33"
+			(at 204.47 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "910"
+			(at 204.47 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 204.47 123.698 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 204.47 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 204.47 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "72bbccb6-709a-4460-8157-b7b396b028e7")
+		)
+		(pin "2"
+			(uuid "b04c0445-bb62-4eae-80d0-ff9b9e4d9b77")
+		)
+		(instances
+			(project "STM32F407_Mega_converter"
+				(path "/13bac97d-dc11-4d74-840a-36e58dc3eaa0/59169af3-3b8b-410b-ace3-72b012c5358b"
+					(reference "R33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 203.2 78.74 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "537ca498-ee5e-45c0-9c52-728e65ab6a1a")
+		(property "Reference" "R31"
+			(at 203.2 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "910"
+			(at 203.2 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 203.2 80.518 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 203.2 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 203.2 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5d8a5f75-51d7-426e-a6d5-a4bd15c61ffd")
+		)
+		(pin "2"
+			(uuid "5b3ddf54-4f24-42bd-8c38-2ba78c26077d")
+		)
+		(instances
+			(project "STM32F407_Mega_converter"
+				(path "/13bac97d-dc11-4d74-840a-36e58dc3eaa0/59169af3-3b8b-410b-ace3-72b012c5358b"
+					(reference "R31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
+		(at 160.02 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "56e74f45-e4da-4792-9138-44477d8fea6f")
+		(property "Reference" "#PWR032"
+			(at 160.02 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Earth"
+			(at 160.02 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 160.02 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 160.02 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 160.02 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0e61796a-3616-48a0-82d4-7bf2a3ef53bf")
+		)
+		(instances
+			(project "STM32F407_Mega_converter"
+				(path "/13bac97d-dc11-4d74-840a-36e58dc3eaa0/59169af3-3b8b-410b-ace3-72b012c5358b"
+					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 195.58 99.06 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "57337890-3292-48c4-ad89-20104d906dd2")
+		(property "Reference" "R28"
+			(at 195.58 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "470"
+			(at 195.58 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 195.58 97.282 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 195.58 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 195.58 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e93ed8f4-682c-422a-924b-2c0923f7d3b5")
+		)
+		(pin "2"
+			(uuid "eaf1aa34-ca28-482e-8034-8144bfe74586")
+		)
+		(instances
+			(project "STM32F407_Mega_converter"
+				(path "/13bac97d-dc11-4d74-840a-36e58dc3eaa0/59169af3-3b8b-410b-ace3-72b012c5358b"
+					(reference "R28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:MCP6004")
+		(at 34.29 49.53 0)
+		(unit 5)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5990f4f7-4abe-4800-962c-bca405ab3393")
+		(property "Reference" "U2"
+			(at 33.02 48.2599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MCP6004"
+			(at 33.02 50.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MCP6004T_I_SL:SOIC127P600X175-14N"
+			(at 33.02 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf"
+			(at 35.56 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1MHz, Low-Power Op Amp, DIP-14/SOIC-14/TSSOP-14"
+			(at 34.29 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "13"
+			(uuid "7146e864-fa2e-4b41-8fe4-7fed2cdaf1ab")
+		)
+		(pin "6"
+			(uuid "5eec59f7-4063-410e-80f1-ba5d952a7c7a")
+		)
+		(pin "14"
+			(uuid "27ddfbee-6ad8-4c51-8aa9-eae6d6dc55de")
+		)
+		(pin "10"
+			(uuid "b2ce5fd4-04e1-4ac6-a992-451efd48f226")
+		)
+		(pin "5"
+			(uuid "4f57f286-0ba5-44cb-b05a-b3b3e807fab9")
+		)
+		(pin "3"
+			(uuid "72507bf8-dbac-439e-a95a-55dd7451f653")
+		)
+		(pin "12"
+			(uuid "48da91fb-79c4-4014-975f-961d79868a77")
+		)
+		(pin "11"
+			(uuid "e7067f8d-9f5f-4229-b11a-44ca5d43605e")
+		)
+		(pin "1"
+			(uuid "8c417892-bb91-41bc-aeb3-2cebc30bdd0d")
+		)
+		(pin "2"
+			(uuid "1fe55a04-2739-4637-8762-74c4e2c632c3")
+		)
+		(pin "7"
+			(uuid "a7b72803-b4ac-44b2-af16-88612e905c2a")
+		)
+		(pin "4"
+			(uuid "92ebe2bc-d2df-494e-8d94-1301d6792c7e")
+		)
+		(pin "9"
+			(uuid "353a4da7-63b6-41a4-bb58-4f5d62c59c9f")
+		)
+		(pin "8"
+			(uuid "c4f6b031-8abe-4cf3-8b60-07fb6cd45794")
+		)
+		(instances
+			(project "STM32F407_Mega_converter"
+				(path "/13bac97d-dc11-4d74-840a-36e58dc3eaa0/59169af3-3b8b-410b-ace3-72b012c5358b"
+					(reference "U2")
+					(unit 5)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 195.58 78.74 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5bfa80ed-fc1b-4247-846f-8975c6290edd")
+		(property "Reference" "R27"
+			(at 195.58 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "470"
+			(at 195.58 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 195.58 76.962 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 195.58 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 195.58 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "31264d32-fe60-4599-a30f-96d6b5d97cce")
+		)
+		(pin "2"
+			(uuid "41ba1454-5a3a-438b-ab06-3fbf83f4ddcc")
+		)
+		(instances
+			(project "STM32F407_Mega_converter"
+				(path "/13bac97d-dc11-4d74-840a-36e58dc3eaa0/59169af3-3b8b-410b-ace3-72b012c5358b"
+					(reference "R27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:MCP6004")
+		(at 135.89 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5ccc2647-b1ef-408b-be54-1e4df698e2b1")
+		(property "Reference" "U5"
+			(at 135.89 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MCP6004"
+			(at 135.89 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MCP6004T_I_SL:SOIC127P600X175-14N"
+			(at 134.62 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf"
+			(at 137.16 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1MHz, Low-Power Op Amp, DIP-14/SOIC-14/TSSOP-14"
+			(at 135.89 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "13"
+			(uuid "7146e864-fa2e-4b41-8fe4-7fed2cdaf1b2")
+		)
+		(pin "6"
+			(uuid "5eec59f7-4063-410e-80f1-ba5d952a7c81")
+		)
+		(pin "14"
+			(uuid "27ddfbee-6ad8-4c51-8aa9-eae6d6dc55e5")
+		)
+		(pin "10"
+			(uuid "b2ce5fd4-04e1-4ac6-a992-451efd48f22e")
+		)
+		(pin "5"
+			(uuid "4f57f286-0ba5-44cb-b05a-b3b3e807fac0")
+		)
+		(pin "3"
+			(uuid "d633292c-f43a-448d-81ba-3640587eeef6")
+		)
+		(pin "12"
+			(uuid "48da91fb-79c4-4014-975f-961d79868a7e")
+		)
+		(pin "11"
+			(uuid "c55fb1ca-716c-41ca-aaab-a37cc503acc0")
+		)
+		(pin "1"
+			(uuid "b99133e5-2967-4ddf-a767-4ff6f0e9384b")
+		)
+		(pin "2"
+			(uuid "1e4948ce-73b7-4134-b3b0-6719bffb813c")
+		)
+		(pin "7"
+			(uuid "a7b72803-b4ac-44b2-af16-88612e905c31")
+		)
+		(pin "4"
+			(uuid "fb570115-12cd-4fa2-bb69-611c5ee10da6")
+		)
+		(pin "9"
+			(uuid "353a4da7-63b6-41a4-bb58-4f5d62c59ca7")
+		)
+		(pin "8"
+			(uuid "c4f6b031-8abe-4cf3-8b60-07fb6cd4579c")
+		)
+		(instances
+			(project "STM32F407_Mega_converter"
+				(path "/13bac97d-dc11-4d74-840a-36e58dc3eaa0/59169af3-3b8b-410b-ace3-72b012c5358b"
+					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:MCP6004")
+		(at 137.16 142.24 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "620742fe-f53e-4c4e-8e9e-579acaa091e8")
+		(property "Reference" "U5"
+			(at 137.16 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MCP6004"
+			(at 137.16 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MCP6004T_I_SL:SOIC127P600X175-14N"
+			(at 135.89 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf"
+			(at 138.43 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1MHz, Low-Power Op Amp, DIP-14/SOIC-14/TSSOP-14"
+			(at 137.16 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "13"
+			(uuid "7146e864-fa2e-4b41-8fe4-7fed2cdaf1b9")
+		)
+		(pin "6"
+			(uuid "5eec59f7-4063-410e-80f1-ba5d952a7c8a")
+		)
+		(pin "14"
+			(uuid "27ddfbee-6ad8-4c51-8aa9-eae6d6dc55ec")
+		)
+		(pin "10"
+			(uuid "e827a1b4-e4ab-42f7-b3a7-a87925bbbc7f")
+		)
+		(pin "5"
+			(uuid "4f57f286-0ba5-44cb-b05a-b3b3e807fac9")
+		)
+		(pin "3"
+			(uuid "72507bf8-dbac-439e-a95a-55dd7451f662")
+		)
+		(pin "12"
+			(uuid "48da91fb-79c4-4014-975f-961d79868a85")
+		)
+		(pin "11"
+			(uuid "c55fb1ca-716c-41ca-aaab-a37cc503acc7")
+		)
+		(pin "1"
+			(uuid "8c417892-bb91-41bc-aeb3-2cebc30bdd1c")
+		)
+		(pin "2"
+			(uuid "1fe55a04-2739-4637-8762-74c4e2c632d2")
+		)
+		(pin "7"
+			(uuid "a7b72803-b4ac-44b2-af16-88612e905c3a")
+		)
+		(pin "4"
+			(uuid "fb570115-12cd-4fa2-bb69-611c5ee10dad")
+		)
+		(pin "9"
+			(uuid "4c3cc4a4-c365-4063-bd0f-99a8291ec7a0")
+		)
+		(pin "8"
+			(uuid "61b1c28f-6dd2-485f-8097-defc5d4123f2")
+		)
+		(instances
+			(project "STM32F407_Mega_converter"
+				(path "/13bac97d-dc11-4d74-840a-36e58dc3eaa0/59169af3-3b8b-410b-ace3-72b012c5358b"
+					(reference "U5")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:MCP6004")
+		(at 135.89 97.79 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "655dd686-595d-4d27-898f-02921f8e2e50")
+		(property "Reference" "U5"
+			(at 135.89 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MCP6004"
+			(at 135.89 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MCP6004T_I_SL:SOIC127P600X175-14N"
+			(at 134.62 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf"
+			(at 137.16 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1MHz, Low-Power Op Amp, DIP-14/SOIC-14/TSSOP-14"
+			(at 135.89 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "13"
+			(uuid "7146e864-fa2e-4b41-8fe4-7fed2cdaf1af")
+		)
+		(pin "6"
+			(uuid "959be42a-2e3f-46bd-b378-7daf58aad0db")
+		)
+		(pin "14"
+			(uuid "27ddfbee-6ad8-4c51-8aa9-eae6d6dc55e2")
+		)
+		(pin "10"
+			(uuid "b2ce5fd4-04e1-4ac6-a992-451efd48f22a")
+		)
+		(pin "5"
+			(uuid "8f8d919f-9bb3-4deb-8b89-f82a59f6d935")
+		)
+		(pin "3"
+			(uuid "72507bf8-dbac-439e-a95a-55dd7451f658")
+		)
+		(pin "12"
+			(uuid "48da91fb-79c4-4014-975f-961d79868a7b")
+		)
+		(pin "11"
+			(uuid "c55fb1ca-716c-41ca-aaab-a37cc503acbc")
+		)
+		(pin "1"
+			(uuid "8c417892-bb91-41bc-aeb3-2cebc30bdd12")
+		)
+		(pin "2"
+			(uuid "1fe55a04-2739-4637-8762-74c4e2c632c8")
+		)
+		(pin "7"
+			(uuid "f2cac9e6-b42c-4f72-b355-a4db75fa2dc2")
+		)
+		(pin "4"
+			(uuid "fb570115-12cd-4fa2-bb69-611c5ee10da2")
+		)
+		(pin "9"
+			(uuid "353a4da7-63b6-41a4-bb58-4f5d62c59ca3")
+		)
+		(pin "8"
+			(uuid "c4f6b031-8abe-4cf3-8b60-07fb6cd45798")
+		)
+		(instances
+			(project "STM32F407_Mega_converter"
+				(path "/13bac97d-dc11-4d74-840a-36e58dc3eaa0/59169af3-3b8b-410b-ace3-72b012c5358b"
+					(reference "U5")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 147.32 97.79 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "65ff078f-029d-48e2-99f4-72662afd84d4")
+		(property "Reference" "R20"
+			(at 147.32 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "470"
+			(at 147.32 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 147.32 96.012 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 147.32 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 147.32 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "92d23a96-7388-4c99-8022-dcb2e8f32448")
+		)
+		(pin "2"
+			(uuid "2b4a6af1-9e68-4160-864f-bcea48697e90")
+		)
+		(instances
+			(project "STM32F407_Mega_converter"
+				(path "/13bac97d-dc11-4d74-840a-36e58dc3eaa0/59169af3-3b8b-410b-ace3-72b012c5358b"
+					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 106.68 78.74 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "69591bdb-8117-43f8-ae4a-ad55f7a6371c")
+		(property "Reference" "R15"
+			(at 106.68 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "910"
+			(at 106.68 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 106.68 80.518 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 106.68 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 106.68 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "47bb6cd6-7a3b-4642-a2cc-c5e5d0d5e72b")
+		)
+		(pin "2"
+			(uuid "435bbc8e-5081-48d4-8371-5b2e1f0dbb16")
+		)
+		(instances
+			(project "STM32F407_Mega_converter"
+				(path "/13bac97d-dc11-4d74-840a-36e58dc3eaa0/59169af3-3b8b-410b-ace3-72b012c5358b"
+					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:MCP6004")
+		(at 38.1 120.65 0)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6c3d2a33-4a7d-499d-a2cb-f7b8649e91ee")
+		(property "Reference" "U2"
+			(at 38.1 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MCP6004"
+			(at 38.1 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MCP6004T_I_SL:SOIC127P600X175-14N"
+			(at 36.83 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf"
+			(at 39.37 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1MHz, Low-Power Op Amp, DIP-14/SOIC-14/TSSOP-14"
+			(at 38.1 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "13"
+			(uuid "ed4f863d-71ce-47db-8f10-ecbfc5df691c")
+		)
+		(pin "6"
+			(uuid "5eec59f7-4063-410e-80f1-ba5d952a7c79")
+		)
+		(pin "14"
+			(uuid "dc82bd15-b730-42ac-a261-352db89a4d4c")
+		)
+		(pin "10"
+			(uuid "b2ce5fd4-04e1-4ac6-a992-451efd48f225")
+		)
+		(pin "5"
+			(uuid "4f57f286-0ba5-44cb-b05a-b3b3e807fab8")
+		)
+		(pin "3"
+			(uuid "72507bf8-dbac-439e-a95a-55dd7451f652")
+		)
+		(pin "12"
+			(uuid "5c93c0c9-d87e-448f-ae76-9983030acef5")
+		)
+		(pin "11"
+			(uuid "c55fb1ca-716c-41ca-aaab-a37cc503acb6")
+		)
+		(pin "1"
+			(uuid "8c417892-bb91-41bc-aeb3-2cebc30bdd0c")
+		)
+		(pin "2"
+			(uuid "1fe55a04-2739-4637-8762-74c4e2c632c2")
+		)
+		(pin "7"
+			(uuid "a7b72803-b4ac-44b2-af16-88612e905c29")
+		)
+		(pin "4"
+			(uuid "fb570115-12cd-4fa2-bb69-611c5ee10d9c")
+		)
+		(pin "9"
+			(uuid "353a4da7-63b6-41a4-bb58-4f5d62c59c9e")
+		)
+		(pin "8"
+			(uuid "c4f6b031-8abe-4cf3-8b60-07fb6cd45793")
+		)
+		(instances
+			(project "STM32F407_Mega_converter"
+				(path "/13bac97d-dc11-4d74-840a-36e58dc3eaa0/59169af3-3b8b-410b-ace3-72b012c5358b"
+					(reference "U2")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:MCP6004")
+		(at 87.63 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6ffa00ea-ad95-4e1d-b1cd-174b07cc0662")
+		(property "Reference" "U4"
+			(at 87.63 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MCP6004"
+			(at 87.63 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MCP6004T_I_SL:SOIC127P600X175-14N"
+			(at 86.36 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf"
+			(at 88.9 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1MHz, Low-Power Op Amp, DIP-14/SOIC-14/TSSOP-14"
+			(at 87.63 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "13"
+			(uuid "7146e864-fa2e-4b41-8fe4-7fed2cdaf1b3")
+		)
+		(pin "6"
+			(uuid "5eec59f7-4063-410e-80f1-ba5d952a7c83")
+		)
+		(pin "14"
+			(uuid "27ddfbee-6ad8-4c51-8aa9-eae6d6dc55e6")
+		)
+		(pin "10"
+			(uuid "b2ce5fd4-04e1-4ac6-a992-451efd48f230")
+		)
+		(pin "5"
+			(uuid "4f57f286-0ba5-44cb-b05a-b3b3e807fac2")
+		)
+		(pin "3"
+			(uuid "78ccdc15-4f0a-4749-9bb8-4d2d15223c6f")
+		)
+		(pin "12"
+			(uuid "48da91fb-79c4-4014-975f-961d79868a7f")
+		)
+		(pin "11"
+			(uuid "c55fb1ca-716c-41ca-aaab-a37cc503acc3")
+		)
+		(pin "1"
+			(uuid "3bcd4ece-3e0b-448a-a13b-6ebdcebfa866")
+		)
+		(pin "2"
+			(uuid "75c76c12-88db-449d-93ad-f898859eb6c2")
+		)
+		(pin "7"
+			(uuid "a7b72803-b4ac-44b2-af16-88612e905c33")
+		)
+		(pin "4"
+			(uuid "fb570115-12cd-4fa2-bb69-611c5ee10da9")
+		)
+		(pin "9"
+			(uuid "353a4da7-63b6-41a4-bb58-4f5d62c59ca9")
+		)
+		(pin "8"
+			(uuid "c4f6b031-8abe-4cf3-8b60-07fb6cd4579e")
+		)
+		(instances
+			(project "STM32F407_Mega_converter"
+				(path "/13bac97d-dc11-4d74-840a-36e58dc3eaa0/59169af3-3b8b-410b-ace3-72b012c5358b"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
+		(at 111.76 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7561e967-3530-4821-8f20-ad8e3e3ddfff")
+		(property "Reference" "#PWR027"
+			(at 111.76 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Earth"
+			(at 111.76 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.76 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 111.76 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 111.76 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b0e71162-da39-4060-a57e-eceb571f4fa7")
+		)
+		(instances
+			(project "STM32F407_Mega_converter"
+				(path "/13bac97d-dc11-4d74-840a-36e58dc3eaa0/59169af3-3b8b-410b-ace3-72b012c5358b"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 130.81 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7a027b64-1be1-4375-84b2-2feba35f773c")
+		(property "Reference" "#PWR028"
+			(at 130.81 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 130.81 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 130.81 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 130.81 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "816df5d7-09a4-4232-a6be-7cf8dddac4e1")
+		)
+		(instances
+			(project "STM32F407_Mega_converter"
+				(path "/13bac97d-dc11-4d74-840a-36e58dc3eaa0/59169af3-3b8b-410b-ace3-72b012c5358b"
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
+		(at 111.76 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7ab56806-d0df-4064-87cd-b5c2030e2514")
+		(property "Reference" "#PWR026"
+			(at 111.76 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Earth"
+			(at 111.76 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.76 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 111.76 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 111.76 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "69d6afad-b2a0-4f45-97f8-89a2d0e62cb4")
+		)
+		(instances
+			(project "STM32F407_Mega_converter"
+				(path "/13bac97d-dc11-4d74-840a-36e58dc3eaa0/59169af3-3b8b-410b-ace3-72b012c5358b"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
+		(at 59.69 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8118e8c3-73e1-400e-bfbe-686cbe3738e6")
+		(property "Reference" "#PWR019"
+			(at 59.69 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Earth"
+			(at 59.69 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 59.69 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 59.69 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 59.69 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "87f8d160-6fef-471e-b757-90367486afe9")
+		)
+		(instances
+			(project "STM32F407_Mega_converter"
+				(path "/13bac97d-dc11-4d74-840a-36e58dc3eaa0/59169af3-3b8b-410b-ace3-72b012c5358b"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 179.07 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "86801c57-87f6-4d1e-b5c6-e3631b74fe47")
+		(property "Reference" "#PWR034"
+			(at 179.07 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 179.07 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 179.07 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 179.07 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 179.07 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "46683745-38cb-4b26-bb0b-d460e492109d")
+		)
+		(instances
+			(project "STM32F407_Mega_converter"
+				(path "/13bac97d-dc11-4d74-840a-36e58dc3eaa0/59169af3-3b8b-410b-ace3-72b012c5358b"
+					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
+		(at 208.28 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "87024bc6-4d04-4798-9b0f-952cc2dd04c2")
+		(property "Reference" "#PWR039"
+			(at 208.28 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Earth"
+			(at 208.28 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 208.28 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 208.28 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 208.28 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "696dc44d-a0a3-4539-8663-2d7657605c90")
+		)
+		(instances
+			(project "STM32F407_Mega_converter"
+				(path "/13bac97d-dc11-4d74-840a-36e58dc3eaa0/59169af3-3b8b-410b-ace3-72b012c5358b"
+					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
+		(at 207.01 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "873210d4-3f4c-4d4a-850f-9d392814bed9")
+		(property "Reference" "#PWR036"
+			(at 207.01 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Earth"
+			(at 207.01 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 207.01 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 207.01 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 207.01 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f40188a3-0aa1-419d-9a6a-bc04e432aafe")
+		)
+		(instances
+			(project "STM32F407_Mega_converter"
+				(path "/13bac97d-dc11-4d74-840a-36e58dc3eaa0/59169af3-3b8b-410b-ace3-72b012c5358b"
+					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:MCP6004")
+		(at 137.16 120.65 0)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8b90915e-c4b7-43b1-b99a-61db3c9f357e")
+		(property "Reference" "U5"
+			(at 137.16 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MCP6004"
+			(at 137.16 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MCP6004T_I_SL:SOIC127P600X175-14N"
+			(at 135.89 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf"
+			(at 138.43 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1MHz, Low-Power Op Amp, DIP-14/SOIC-14/TSSOP-14"
+			(at 137.16 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "13"
+			(uuid "1bc8c12a-cdf2-4c47-b6f6-34e7ef031f94")
+		)
+		(pin "6"
+			(uuid "5eec59f7-4063-410e-80f1-ba5d952a7c82")
+		)
+		(pin "14"
+			(uuid "d2c97526-301f-4afc-9e70-610eb83266e4")
+		)
+		(pin "10"
+			(uuid "b2ce5fd4-04e1-4ac6-a992-451efd48f22f")
+		)
+		(pin "5"
+			(uuid "4f57f286-0ba5-44cb-b05a-b3b3e807fac1")
+		)
+		(pin "3"
+			(uuid "72507bf8-dbac-439e-a95a-55dd7451f65a")
+		)
+		(pin "12"
+			(uuid "2b10d4b1-d434-41a6-aed9-ea5f3fb31bf4")
+		)
+		(pin "11"
+			(uuid "c55fb1ca-716c-41ca-aaab-a37cc503acc1")
+		)
+		(pin "1"
+			(uuid "8c417892-bb91-41bc-aeb3-2cebc30bdd14")
+		)
+		(pin "2"
+			(uuid "1fe55a04-2739-4637-8762-74c4e2c632ca")
+		)
+		(pin "7"
+			(uuid "a7b72803-b4ac-44b2-af16-88612e905c32")
+		)
+		(pin "4"
+			(uuid "fb570115-12cd-4fa2-bb69-611c5ee10da7")
+		)
+		(pin "9"
+			(uuid "353a4da7-63b6-41a4-bb58-4f5d62c59ca8")
+		)
+		(pin "8"
+			(uuid "c4f6b031-8abe-4cf3-8b60-07fb6cd4579d")
+		)
+		(instances
+			(project "STM32F407_Mega_converter"
+				(path "/13bac97d-dc11-4d74-840a-36e58dc3eaa0/59169af3-3b8b-410b-ace3-72b012c5358b"
+					(reference "U5")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 99.06 78.74 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8d922f48-e7f0-4636-8c2b-6688f98198cc")
+		(property "Reference" "R11"
+			(at 99.06 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "470"
+			(at 99.06 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 99.06 76.962 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 99.06 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 99.06 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fad8eb0f-0f49-4b2c-9281-79f3ea8094ae")
+		)
+		(pin "2"
+			(uuid "ff675389-a465-453f-aba7-85d4a736af6b")
+		)
+		(instances
+			(project "STM32F407_Mega_converter"
+				(path "/13bac97d-dc11-4d74-840a-36e58dc3eaa0/59169af3-3b8b-410b-ace3-72b012c5358b"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:MCP6004")
+		(at 133.35 49.53 0)
+		(unit 5)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "901269df-d6f3-4466-8358-9712931b9950")
+		(property "Reference" "U5"
+			(at 132.08 48.2599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MCP6004"
+			(at 132.08 50.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MCP6004T_I_SL:SOIC127P600X175-14N"
+			(at 132.08 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf"
+			(at 134.62 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1MHz, Low-Power Op Amp, DIP-14/SOIC-14/TSSOP-14"
+			(at 133.35 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "13"
+			(uuid "7146e864-fa2e-4b41-8fe4-7fed2cdaf1b5")
+		)
+		(pin "6"
+			(uuid "5eec59f7-4063-410e-80f1-ba5d952a7c84")
+		)
+		(pin "14"
+			(uuid "27ddfbee-6ad8-4c51-8aa9-eae6d6dc55e8")
+		)
+		(pin "10"
+			(uuid "b2ce5fd4-04e1-4ac6-a992-451efd48f231")
+		)
+		(pin "5"
+			(uuid "4f57f286-0ba5-44cb-b05a-b3b3e807fac3")
+		)
+		(pin "3"
+			(uuid "72507bf8-dbac-439e-a95a-55dd7451f65c")
+		)
+		(pin "12"
+			(uuid "48da91fb-79c4-4014-975f-961d79868a81")
+		)
+		(pin "11"
+			(uuid "b3208bd2-9254-4efe-ae5e-c747cf5ac1b3")
+		)
+		(pin "1"
+			(uuid "8c417892-bb91-41bc-aeb3-2cebc30bdd16")
+		)
+		(pin "2"
+			(uuid "1fe55a04-2739-4637-8762-74c4e2c632cc")
+		)
+		(pin "7"
+			(uuid "a7b72803-b4ac-44b2-af16-88612e905c34")
+		)
+		(pin "4"
+			(uuid "abb63588-78f2-4bff-8e71-c38e4cc46a1f")
+		)
+		(pin "9"
+			(uuid "353a4da7-63b6-41a4-bb58-4f5d62c59caa")
+		)
+		(pin "8"
+			(uuid "c4f6b031-8abe-4cf3-8b60-07fb6cd4579f")
+		)
+		(instances
+			(project "STM32F407_Mega_converter"
+				(path "/13bac97d-dc11-4d74-840a-36e58dc3eaa0/59169af3-3b8b-410b-ace3-72b012c5358b"
+					(reference "U5")
+					(unit 5)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 31.75 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "92820390-f747-43ef-8606-db91dde2d8cb")
+		(property "Reference" "#PWR016"
+			(at 31.75 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 31.75 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 31.75 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 31.75 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 31.75 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5edcf054-f452-4499-8a0d-a956376d96fe")
+		)
+		(instances
+			(project "STM32F407_Mega_converter"
+				(path "/13bac97d-dc11-4d74-840a-36e58dc3eaa0/59169af3-3b8b-410b-ace3-72b012c5358b"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 55.88 77.47 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9613ed8e-6530-42ac-828d-712c62d94d30")
+		(property "Reference" "R7"
+			(at 55.88 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "910"
+			(at 55.88 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 55.88 79.248 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 55.88 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 55.88 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "21fd3212-3158-486c-bd28-33e568c15954")
+		)
+		(pin "2"
+			(uuid "2580e6c3-9383-4ceb-b160-7f5a818c7890")
+		)
+		(instances
+			(project "STM32F407_Mega_converter"
+				(path "/13bac97d-dc11-4d74-840a-36e58dc3eaa0/59169af3-3b8b-410b-ace3-72b012c5358b"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 99.06 99.06 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "983236d6-ccf7-41fc-ac2b-29f4c636998e")
+		(property "Reference" "R12"
+			(at 99.06 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "470"
+			(at 99.06 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 99.06 97.282 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 99.06 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 99.06 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "73ad82f9-a28e-469f-bf5c-a4c6b358820e")
+		)
+		(pin "2"
+			(uuid "a33cadc6-01b3-4b91-9f2f-422dc3b23536")
+		)
+		(instances
+			(project "STM32F407_Mega_converter"
+				(path "/13bac97d-dc11-4d74-840a-36e58dc3eaa0/59169af3-3b8b-410b-ace3-72b012c5358b"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
+		(at 208.28 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "991e53d5-2c20-4acd-9867-28e97d5eb4b7")
+		(property "Reference" "#PWR038"
+			(at 208.28 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Earth"
+			(at 208.28 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 208.28 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 208.28 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 208.28 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e01786a6-7939-42b8-92e3-c3a16ec74bc0")
+		)
+		(instances
+			(project "STM32F407_Mega_converter"
+				(path "/13bac97d-dc11-4d74-840a-36e58dc3eaa0/59169af3-3b8b-410b-ace3-72b012c5358b"
+					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 100.33 121.92 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "99bf398f-5db8-428e-96d6-82e9825a05d9")
+		(property "Reference" "R13"
+			(at 100.33 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "470"
+			(at 100.33 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 100.33 120.142 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 100.33 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 100.33 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "24f463bf-d2f7-454f-9fe0-e4e7a1ae2061")
+		)
+		(pin "2"
+			(uuid "0b8ed5cf-042d-4347-bbe0-1fa0396cb445")
+		)
+		(instances
+			(project "STM32F407_Mega_converter"
+				(path "/13bac97d-dc11-4d74-840a-36e58dc3eaa0/59169af3-3b8b-410b-ace3-72b012c5358b"
+					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 49.53 142.24 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9bf4899f-ba06-4420-aa67-8a27efb47bfa")
+		(property "Reference" "R6"
+			(at 49.53 135.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "470"
+			(at 49.53 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 49.53 140.462 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 49.53 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 49.53 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c951ee3d-9bd1-434a-81fb-2456cac738fc")
+		)
+		(pin "2"
+			(uuid "db00ccdd-935a-4380-89ad-85d1dd9556e0")
+		)
+		(instances
+			(project "STM32F407_Mega_converter"
+				(path "/13bac97d-dc11-4d74-840a-36e58dc3eaa0/59169af3-3b8b-410b-ace3-72b012c5358b"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 107.95 143.51 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a096e2d5-d5d9-4c49-8894-4d1fcc20fb6d")
+		(property "Reference" "R18"
+			(at 107.95 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "910"
+			(at 107.95 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 107.95 145.288 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 107.95 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 107.95 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "58455a2a-21f0-4759-84df-8b6cbdc5d263")
+		)
+		(pin "2"
+			(uuid "04e098d1-4b1a-426c-8ecc-a2731874bbf1")
+		)
+		(instances
+			(project "STM32F407_Mega_converter"
+				(path "/13bac97d-dc11-4d74-840a-36e58dc3eaa0/59169af3-3b8b-410b-ace3-72b012c5358b"
+					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
+		(at 110.49 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a24f0338-42d3-48ed-996b-3a4d24989eac")
+		(property "Reference" "#PWR025"
+			(at 110.49 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Earth"
+			(at 110.49 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 110.49 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 110.49 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 110.49 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "826b5cd8-7f19-427b-a77b-b175bd78ebef")
+		)
+		(instances
+			(project "STM32F407_Mega_converter"
+				(path "/13bac97d-dc11-4d74-840a-36e58dc3eaa0/59169af3-3b8b-410b-ace3-72b012c5358b"
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:MCP6004")
+		(at 88.9 143.51 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a7b8fbf6-5fb5-473b-afb3-9ef1db6c07ae")
+		(property "Reference" "U4"
+			(at 88.9 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MCP6004"
+			(at 88.9 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MCP6004T_I_SL:SOIC127P600X175-14N"
+			(at 87.63 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf"
+			(at 90.17 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1MHz, Low-Power Op Amp, DIP-14/SOIC-14/TSSOP-14"
+			(at 88.9 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "13"
+			(uuid "7146e864-fa2e-4b41-8fe4-7fed2cdaf1b4")
+		)
+		(pin "6"
+			(uuid "5eec59f7-4063-410e-80f1-ba5d952a7c86")
+		)
+		(pin "14"
+			(uuid "27ddfbee-6ad8-4c51-8aa9-eae6d6dc55e7")
+		)
+		(pin "10"
+			(uuid "92d873ce-9fe5-4dcd-b5e0-4aa3f950b727")
+		)
+		(pin "5"
+			(uuid "4f57f286-0ba5-44cb-b05a-b3b3e807fac5")
+		)
+		(pin "3"
+			(uuid "72507bf8-dbac-439e-a95a-55dd7451f65e")
+		)
+		(pin "12"
+			(uuid "48da91fb-79c4-4014-975f-961d79868a80")
+		)
+		(pin "11"
+			(uuid "c55fb1ca-716c-41ca-aaab-a37cc503acc4")
+		)
+		(pin "1"
+			(uuid "8c417892-bb91-41bc-aeb3-2cebc30bdd18")
+		)
+		(pin "2"
+			(uuid "1fe55a04-2739-4637-8762-74c4e2c632ce")
+		)
+		(pin "7"
+			(uuid "a7b72803-b4ac-44b2-af16-88612e905c36")
+		)
+		(pin "4"
+			(uuid "fb570115-12cd-4fa2-bb69-611c5ee10daa")
+		)
+		(pin "9"
+			(uuid "5fedb099-4246-451c-9ff7-1ab93ceb7de0")
+		)
+		(pin "8"
+			(uuid "c2960978-1d24-4834-b238-c98f0ff042b8")
+		)
+		(instances
+			(project "STM32F407_Mega_converter"
+				(path "/13bac97d-dc11-4d74-840a-36e58dc3eaa0/59169af3-3b8b-410b-ace3-72b012c5358b"
+					(reference "U4")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:MCP6004")
+		(at 184.15 99.06 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a8e1a305-9d60-4c75-b291-d45a071edba4")
+		(property "Reference" "U6"
+			(at 184.15 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MCP6004"
+			(at 184.15 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MCP6004T_I_SL:SOIC127P600X175-14N"
+			(at 182.88 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf"
+			(at 185.42 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1MHz, Low-Power Op Amp, DIP-14/SOIC-14/TSSOP-14"
+			(at 184.15 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "13"
+			(uuid "7146e864-fa2e-4b41-8fe4-7fed2cdaf1b0")
+		)
+		(pin "6"
+			(uuid "b3e9bb79-4cb1-4fcd-9c84-f478cf2afe5f")
+		)
+		(pin "14"
+			(uuid "27ddfbee-6ad8-4c51-8aa9-eae6d6dc55e3")
+		)
+		(pin "10"
+			(uuid "b2ce5fd4-04e1-4ac6-a992-451efd48f22b")
+		)
+		(pin "5"
+			(uuid "c4aa570b-6e4a-49d8-b359-1cf1903cde76")
+		)
+		(pin "3"
+			(uuid "72507bf8-dbac-439e-a95a-55dd7451f65b")
+		)
+		(pin "12"
+			(uuid "48da91fb-79c4-4014-975f-961d79868a7c")
+		)
+		(pin "11"
+			(uuid "c55fb1ca-716c-41ca-aaab-a37cc503acbd")
+		)
+		(pin "1"
+			(uuid "8c417892-bb91-41bc-aeb3-2cebc30bdd15")
+		)
+		(pin "2"
+			(uuid "1fe55a04-2739-4637-8762-74c4e2c632cb")
+		)
+		(pin "7"
+			(uuid "a46e1f56-cf8f-46d6-86f5-1d44536ad762")
+		)
+		(pin "4"
+			(uuid "fb570115-12cd-4fa2-bb69-611c5ee10da3")
+		)
+		(pin "9"
+			(uuid "353a4da7-63b6-41a4-bb58-4f5d62c59ca4")
+		)
+		(pin "8"
+			(uuid "c4f6b031-8abe-4cf3-8b60-07fb6cd45799")
+		)
+		(instances
+			(project "STM32F407_Mega_converter"
+				(path "/13bac97d-dc11-4d74-840a-36e58dc3eaa0/59169af3-3b8b-410b-ace3-72b012c5358b"
+					(reference "U6")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
+		(at 60.96 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ad84cb0a-921f-4301-9a96-49380755a36b")
+		(property "Reference" "#PWR020"
+			(at 60.96 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Earth"
+			(at 60.96 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.96 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 60.96 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 60.96 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1ab6944b-931d-412b-967e-e702410ce563")
+		)
+		(instances
+			(project "STM32F407_Mega_converter"
+				(path "/13bac97d-dc11-4d74-840a-36e58dc3eaa0/59169af3-3b8b-410b-ace3-72b012c5358b"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 196.85 121.92 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b09b6165-87ef-4033-b701-bd7fb965c13d")
+		(property "Reference" "R29"
+			(at 196.85 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "470"
+			(at 196.85 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 196.85 120.142 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 196.85 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 196.85 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2c8ac578-4a9a-4771-8b4a-6eeab65928a7")
+		)
+		(pin "2"
+			(uuid "4fc39f30-ee09-487e-af54-2b4b27f8d3ee")
+		)
+		(instances
+			(project "STM32F407_Mega_converter"
+				(path "/13bac97d-dc11-4d74-840a-36e58dc3eaa0/59169af3-3b8b-410b-ace3-72b012c5358b"
+					(reference "R29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 203.2 99.06 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b84057e9-14be-45d5-b8a5-79aee0d59a2c")
+		(property "Reference" "R32"
+			(at 203.2 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "910"
+			(at 203.2 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 203.2 100.838 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 203.2 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 203.2 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "31cf0eae-612a-4ddb-8d0d-b7eca7af97a3")
+		)
+		(pin "2"
+			(uuid "17a991d4-9b18-4700-82b8-8f6656c7c628")
+		)
+		(instances
+			(project "STM32F407_Mega_converter"
+				(path "/13bac97d-dc11-4d74-840a-36e58dc3eaa0/59169af3-3b8b-410b-ace3-72b012c5358b"
+					(reference "R32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
+		(at 158.75 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c4109d2e-bb39-414b-828a-dcce8292749e")
+		(property "Reference" "#PWR030"
+			(at 158.75 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Earth"
+			(at 158.75 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 158.75 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 158.75 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 158.75 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "08c040f6-25c0-4a8e-b461-3f21b8e2290b")
+		)
+		(instances
+			(project "STM32F407_Mega_converter"
+				(path "/13bac97d-dc11-4d74-840a-36e58dc3eaa0/59169af3-3b8b-410b-ace3-72b012c5358b"
+					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 204.47 143.51 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c4eb77f1-5868-432f-9e31-61f7cf9692cf")
+		(property "Reference" "R34"
+			(at 204.47 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "910"
+			(at 204.47 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 204.47 145.288 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 204.47 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 204.47 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5e35d7be-9ce7-4f0a-88d3-1032f10894b9")
+		)
+		(pin "2"
+			(uuid "aee44d9e-a4a5-468c-a42e-db26eec3c982")
+		)
+		(instances
+			(project "STM32F407_Mega_converter"
+				(path "/13bac97d-dc11-4d74-840a-36e58dc3eaa0/59169af3-3b8b-410b-ace3-72b012c5358b"
+					(reference "R34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
+		(at 160.02 143.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d31b88f4-463d-448a-8c7b-e81aa665efcb")
+		(property "Reference" "#PWR033"
+			(at 160.02 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Earth"
+			(at 160.02 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 160.02 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 160.02 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 160.02 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "80d11ccc-3783-4fef-b095-9fd8281105a7")
+		)
+		(instances
+			(project "STM32F407_Mega_converter"
+				(path "/13bac97d-dc11-4d74-840a-36e58dc3eaa0/59169af3-3b8b-410b-ace3-72b012c5358b"
+					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
+		(at 49.53 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d6529749-8d3f-4bb1-a102-00ade4c97371")
+		(property "Reference" "#PWR017"
+			(at 49.53 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Earth"
+			(at 49.53 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 49.53 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 49.53 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 49.53 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0e943ccf-cbd1-41be-bd29-e3b375a1e53d")
+		)
+		(instances
+			(project "STM32F407_Mega_converter"
+				(path "/13bac97d-dc11-4d74-840a-36e58dc3eaa0/59169af3-3b8b-410b-ace3-72b012c5358b"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 147.32 77.47 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dcc68aca-c3b6-493e-a34a-f5eeb09c2065")
+		(property "Reference" "R19"
+			(at 147.32 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "470"
+			(at 147.32 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 147.32 75.692 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 147.32 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 147.32 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8d9130d8-82ec-431b-94aa-9ce8e0226d3d")
+		)
+		(pin "2"
+			(uuid "ffb1cc39-cc3f-417b-bd3f-9f61d9b0f5f2")
+		)
+		(instances
+			(project "STM32F407_Mega_converter"
+				(path "/13bac97d-dc11-4d74-840a-36e58dc3eaa0/59169af3-3b8b-410b-ace3-72b012c5358b"
+					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 196.85 143.51 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dddb937e-d550-418f-bf79-014539e2dd97")
+		(property "Reference" "R30"
+			(at 196.85 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "470"
+			(at 196.85 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 196.85 141.732 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 196.85 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 196.85 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "67dcdb49-917a-41ad-851c-5be44762bc34")
+		)
+		(pin "2"
+			(uuid "5c7b7f59-f1de-401f-9342-6bfec8711ee8")
+		)
+		(instances
+			(project "STM32F407_Mega_converter"
+				(path "/13bac97d-dc11-4d74-840a-36e58dc3eaa0/59169af3-3b8b-410b-ace3-72b012c5358b"
+					(reference "R30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
+		(at 110.49 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e1e8d12d-2fb1-40f0-ab8b-12ef907a78d7")
+		(property "Reference" "#PWR024"
+			(at 110.49 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Earth"
+			(at 110.49 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 110.49 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 110.49 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 110.49 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c811fd14-1e09-4d8e-8c21-3d3c5c47bd6a")
+		)
+		(instances
+			(project "STM32F407_Mega_converter"
+				(path "/13bac97d-dc11-4d74-840a-36e58dc3eaa0/59169af3-3b8b-410b-ace3-72b012c5358b"
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
+		(at 207.01 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e23efac5-3725-48e5-b90e-5cff078a6dcb")
+		(property "Reference" "#PWR037"
+			(at 207.01 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Earth"
+			(at 207.01 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 207.01 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 207.01 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 207.01 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2fa736d2-cd64-4b99-bc9e-a4094bd18d63")
+		)
+		(instances
+			(project "STM32F407_Mega_converter"
+				(path "/13bac97d-dc11-4d74-840a-36e58dc3eaa0/59169af3-3b8b-410b-ace3-72b012c5358b"
+					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 156.21 120.65 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e3e58569-16fa-4379-a3f2-0ec7c7246c20")
+		(property "Reference" "R25"
+			(at 156.21 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "910"
+			(at 156.21 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 156.21 122.428 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 156.21 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 156.21 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b082fb6e-c0b8-42b5-bf93-a5633cb1006c")
+		)
+		(pin "2"
+			(uuid "33de7787-6d35-49c3-89c6-407bde94ec8f")
+		)
+		(instances
+			(project "STM32F407_Mega_converter"
+				(path "/13bac97d-dc11-4d74-840a-36e58dc3eaa0/59169af3-3b8b-410b-ace3-72b012c5358b"
+					(reference "R25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:MCP6004")
+		(at 181.61 50.8 0)
+		(unit 5)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e865e186-f467-4df0-a11a-3b077aaf13e0")
+		(property "Reference" "U6"
+			(at 180.34 49.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MCP6004"
+			(at 180.34 52.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MCP6004T_I_SL:SOIC127P600X175-14N"
+			(at 180.34 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf"
+			(at 182.88 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1MHz, Low-Power Op Amp, DIP-14/SOIC-14/TSSOP-14"
+			(at 181.61 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "13"
+			(uuid "7146e864-fa2e-4b41-8fe4-7fed2cdaf1b8")
+		)
+		(pin "6"
+			(uuid "5eec59f7-4063-410e-80f1-ba5d952a7c89")
+		)
+		(pin "14"
+			(uuid "27ddfbee-6ad8-4c51-8aa9-eae6d6dc55eb")
+		)
+		(pin "10"
+			(uuid "b2ce5fd4-04e1-4ac6-a992-451efd48f233")
+		)
+		(pin "5"
+			(uuid "4f57f286-0ba5-44cb-b05a-b3b3e807fac8")
+		)
+		(pin "3"
+			(uuid "72507bf8-dbac-439e-a95a-55dd7451f661")
+		)
+		(pin "12"
+			(uuid "48da91fb-79c4-4014-975f-961d79868a84")
+		)
+		(pin "11"
+			(uuid "5dc3ca7e-679e-4203-936d-27ddfe0107d1")
+		)
+		(pin "1"
+			(uuid "8c417892-bb91-41bc-aeb3-2cebc30bdd1b")
+		)
+		(pin "2"
+			(uuid "1fe55a04-2739-4637-8762-74c4e2c632d1")
+		)
+		(pin "7"
+			(uuid "a7b72803-b4ac-44b2-af16-88612e905c39")
+		)
+		(pin "4"
+			(uuid "0e4fe8de-b65e-4018-b4b7-94ebbd011cf1")
+		)
+		(pin "9"
+			(uuid "353a4da7-63b6-41a4-bb58-4f5d62c59cac")
+		)
+		(pin "8"
+			(uuid "c4f6b031-8abe-4cf3-8b60-07fb6cd457a1")
+		)
+		(instances
+			(project "STM32F407_Mega_converter"
+				(path "/13bac97d-dc11-4d74-840a-36e58dc3eaa0/59169af3-3b8b-410b-ace3-72b012c5358b"
+					(reference "U6")
+					(unit 5)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 148.59 120.65 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ed016120-d2b3-42fc-86f4-e0d302ee13a4")
+		(property "Reference" "R21"
+			(at 148.59 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "470"
+			(at 148.59 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 148.59 118.872 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 148.59 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 148.59 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7fee719a-fa54-448b-9919-585db39f9e3d")
+		)
+		(pin "2"
+			(uuid "3af8b10e-7784-4501-9a3e-d87efb6870e3")
+		)
+		(instances
+			(project "STM32F407_Mega_converter"
+				(path "/13bac97d-dc11-4d74-840a-36e58dc3eaa0/59169af3-3b8b-410b-ace3-72b012c5358b"
+					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 57.15 142.24 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f0c936bf-5ff1-4001-8e1d-b58d4ee23224")
+		(property "Reference" "R10"
+			(at 57.15 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "910"
+			(at 57.15 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 57.15 144.018 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 57.15 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 57.15 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "85ecbca7-83a7-46cf-a25f-7314f7696ec2")
+		)
+		(pin "2"
+			(uuid "5428a5d8-cbe3-4254-a67a-530157ede5ad")
+		)
+		(instances
+			(project "STM32F407_Mega_converter"
+				(path "/13bac97d-dc11-4d74-840a-36e58dc3eaa0/59169af3-3b8b-410b-ace3-72b012c5358b"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 106.68 99.06 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f6cb1ec9-810a-4cee-91d7-54755ea81d22")
+		(property "Reference" "R16"
+			(at 106.68 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "910"
+			(at 106.68 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 106.68 100.838 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 106.68 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 106.68 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "20dd611e-ea6b-4b38-ad39-ae274920913a")
+		)
+		(pin "2"
+			(uuid "71918b5e-6a82-4f88-bf24-780b04742b6a")
+		)
+		(instances
+			(project "STM32F407_Mega_converter"
+				(path "/13bac97d-dc11-4d74-840a-36e58dc3eaa0/59169af3-3b8b-410b-ace3-72b012c5358b"
+					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:MCP6004")
+		(at 36.83 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f7101c43-a909-4b76-9b58-ad9a97e9a115")
+		(property "Reference" "U2"
+			(at 36.83 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MCP6004"
+			(at 36.83 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MCP6004T_I_SL:SOIC127P600X175-14N"
+			(at 35.56 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf"
+			(at 38.1 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1MHz, Low-Power Op Amp, DIP-14/SOIC-14/TSSOP-14"
+			(at 36.83 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "13"
+			(uuid "7146e864-fa2e-4b41-8fe4-7fed2cdaf1ba")
+		)
+		(pin "6"
+			(uuid "5eec59f7-4063-410e-80f1-ba5d952a7c7d")
+		)
+		(pin "14"
+			(uuid "27ddfbee-6ad8-4c51-8aa9-eae6d6dc55ed")
+		)
+		(pin "10"
+			(uuid "b2ce5fd4-04e1-4ac6-a992-451efd48f234")
+		)
+		(pin "5"
+			(uuid "4f57f286-0ba5-44cb-b05a-b3b3e807fabc")
+		)
+		(pin "3"
+			(uuid "64830977-da39-4571-aa14-cf01b86930a1")
+		)
+		(pin "12"
+			(uuid "48da91fb-79c4-4014-975f-961d79868a86")
+		)
+		(pin "11"
+			(uuid "c55fb1ca-716c-41ca-aaab-a37cc503acc8")
+		)
+		(pin "1"
+			(uuid "f2aa5e6e-5737-4fe4-8894-0ed8017c038c")
+		)
+		(pin "2"
+			(uuid "8cd030e8-ff05-4ac5-bef8-3443b76e095f")
+		)
+		(pin "7"
+			(uuid "a7b72803-b4ac-44b2-af16-88612e905c2d")
+		)
+		(pin "4"
+			(uuid "fb570115-12cd-4fa2-bb69-611c5ee10dae")
+		)
+		(pin "9"
+			(uuid "353a4da7-63b6-41a4-bb58-4f5d62c59cad")
+		)
+		(pin "8"
+			(uuid "c4f6b031-8abe-4cf3-8b60-07fb6cd457a2")
+		)
+		(instances
+			(project "STM32F407_Mega_converter"
+				(path "/13bac97d-dc11-4d74-840a-36e58dc3eaa0/59169af3-3b8b-410b-ace3-72b012c5358b"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:MCP6004")
+		(at 185.42 143.51 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fa92e5d5-3b1e-496f-aee0-f7885536df9b")
+		(property "Reference" "U6"
+			(at 185.42 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MCP6004"
+			(at 185.42 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MCP6004T_I_SL:SOIC127P600X175-14N"
+			(at 184.15 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf"
+			(at 186.69 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1MHz, Low-Power Op Amp, DIP-14/SOIC-14/TSSOP-14"
+			(at 185.42 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "13"
+			(uuid "7146e864-fa2e-4b41-8fe4-7fed2cdaf1b7")
+		)
+		(pin "6"
+			(uuid "5eec59f7-4063-410e-80f1-ba5d952a7c88")
+		)
+		(pin "14"
+			(uuid "27ddfbee-6ad8-4c51-8aa9-eae6d6dc55ea")
+		)
+		(pin "10"
+			(uuid "d6320931-bc14-40f7-ab7e-5f572d60bc85")
+		)
+		(pin "5"
+			(uuid "4f57f286-0ba5-44cb-b05a-b3b3e807fac7")
+		)
+		(pin "3"
+			(uuid "72507bf8-dbac-439e-a95a-55dd7451f660")
+		)
+		(pin "12"
+			(uuid "48da91fb-79c4-4014-975f-961d79868a83")
+		)
+		(pin "11"
+			(uuid "c55fb1ca-716c-41ca-aaab-a37cc503acc6")
+		)
+		(pin "1"
+			(uuid "8c417892-bb91-41bc-aeb3-2cebc30bdd1a")
+		)
+		(pin "2"
+			(uuid "1fe55a04-2739-4637-8762-74c4e2c632d0")
+		)
+		(pin "7"
+			(uuid "a7b72803-b4ac-44b2-af16-88612e905c38")
+		)
+		(pin "4"
+			(uuid "fb570115-12cd-4fa2-bb69-611c5ee10dac")
+		)
+		(pin "9"
+			(uuid "642ea743-cb83-4512-ada2-3b6b01c6d360")
+		)
+		(pin "8"
+			(uuid "350d3706-92df-42c5-8240-82a15f73d572")
+		)
+		(instances
+			(project "STM32F407_Mega_converter"
+				(path "/13bac97d-dc11-4d74-840a-36e58dc3eaa0/59169af3-3b8b-410b-ace3-72b012c5358b"
+					(reference "U6")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:MCP6004")
+		(at 85.09 50.8 0)
+		(unit 5)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fb11a3b8-33da-49d1-a627-eca6f060d361")
+		(property "Reference" "U4"
+			(at 83.82 49.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MCP6004"
+			(at 83.82 52.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MCP6004T_I_SL:SOIC127P600X175-14N"
+			(at 83.82 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf"
+			(at 86.36 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1MHz, Low-Power Op Amp, DIP-14/SOIC-14/TSSOP-14"
+			(at 85.09 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "13"
+			(uuid "7146e864-fa2e-4b41-8fe4-7fed2cdaf1bb")
+		)
+		(pin "6"
+			(uuid "5eec59f7-4063-410e-80f1-ba5d952a7c8b")
+		)
+		(pin "14"
+			(uuid "27ddfbee-6ad8-4c51-8aa9-eae6d6dc55ee")
+		)
+		(pin "10"
+			(uuid "b2ce5fd4-04e1-4ac6-a992-451efd48f235")
+		)
+		(pin "5"
+			(uuid "4f57f286-0ba5-44cb-b05a-b3b3e807faca")
+		)
+		(pin "3"
+			(uuid "72507bf8-dbac-439e-a95a-55dd7451f663")
+		)
+		(pin "12"
+			(uuid "48da91fb-79c4-4014-975f-961d79868a87")
+		)
+		(pin "11"
+			(uuid "8dabc3ee-3756-4717-959d-6a362286c112")
+		)
+		(pin "1"
+			(uuid "8c417892-bb91-41bc-aeb3-2cebc30bdd1d")
+		)
+		(pin "2"
+			(uuid "1fe55a04-2739-4637-8762-74c4e2c632d3")
+		)
+		(pin "7"
+			(uuid "a7b72803-b4ac-44b2-af16-88612e905c3b")
+		)
+		(pin "4"
+			(uuid "d67cc6a3-5283-411d-b3fb-59aa93867b2f")
+		)
+		(pin "9"
+			(uuid "353a4da7-63b6-41a4-bb58-4f5d62c59cae")
+		)
+		(pin "8"
+			(uuid "c4f6b031-8abe-4cf3-8b60-07fb6cd457a3")
+		)
+		(instances
+			(project "STM32F407_Mega_converter"
+				(path "/13bac97d-dc11-4d74-840a-36e58dc3eaa0/59169af3-3b8b-410b-ace3-72b012c5358b"
+					(reference "U4")
+					(unit 5)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 48.26 97.79 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fc7f6a0a-a0b8-4bb1-8ae4-1c0bc6e37b79")
+		(property "Reference" "R4"
+			(at 48.26 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "470"
+			(at 48.26 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 48.26 96.012 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 48.26 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 48.26 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "11d2b4e3-6306-424c-94ad-332800f5dd45")
+		)
+		(pin "2"
+			(uuid "53579364-b274-41d2-826e-79558aece23d")
+		)
+		(instances
+			(project "STM32F407_Mega_converter"
+				(path "/13bac97d-dc11-4d74-840a-36e58dc3eaa0/59169af3-3b8b-410b-ace3-72b012c5358b"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:MCP6004")
+		(at 38.1 142.24 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fc906312-9d46-41a8-8ee1-176e6219bcaf")
+		(property "Reference" "U2"
+			(at 38.1 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MCP6004"
+			(at 38.1 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MCP6004T_I_SL:SOIC127P600X175-14N"
+			(at 36.83 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf"
+			(at 39.37 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1MHz, Low-Power Op Amp, DIP-14/SOIC-14/TSSOP-14"
+			(at 38.1 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "13"
+			(uuid "7146e864-fa2e-4b41-8fe4-7fed2cdaf1b6")
+		)
+		(pin "6"
+			(uuid "5eec59f7-4063-410e-80f1-ba5d952a7c85")
+		)
+		(pin "14"
+			(uuid "27ddfbee-6ad8-4c51-8aa9-eae6d6dc55e9")
+		)
+		(pin "10"
+			(uuid "cefd9482-83d9-4f0c-8ebf-f2ee7f103c31")
+		)
+		(pin "5"
+			(uuid "4f57f286-0ba5-44cb-b05a-b3b3e807fac4")
+		)
+		(pin "3"
+			(uuid "72507bf8-dbac-439e-a95a-55dd7451f65d")
+		)
+		(pin "12"
+			(uuid "48da91fb-79c4-4014-975f-961d79868a82")
+		)
+		(pin "11"
+			(uuid "c55fb1ca-716c-41ca-aaab-a37cc503acc2")
+		)
+		(pin "1"
+			(uuid "8c417892-bb91-41bc-aeb3-2cebc30bdd17")
+		)
+		(pin "2"
+			(uuid "1fe55a04-2739-4637-8762-74c4e2c632cd")
+		)
+		(pin "7"
+			(uuid "a7b72803-b4ac-44b2-af16-88612e905c35")
+		)
+		(pin "4"
+			(uuid "fb570115-12cd-4fa2-bb69-611c5ee10da8")
+		)
+		(pin "9"
+			(uuid "5014593b-a314-4fa5-865b-7b4dc31d74ed")
+		)
+		(pin "8"
+			(uuid "cdf4e4fc-c412-41ee-8ba8-70ee8aaabbbc")
+		)
+		(instances
+			(project "STM32F407_Mega_converter"
+				(path "/13bac97d-dc11-4d74-840a-36e58dc3eaa0/59169af3-3b8b-410b-ace3-72b012c5358b"
+					(reference "U2")
+					(unit 3)
+				)
+			)
+		)
+	)
+)
