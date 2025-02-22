@@ -3,11 +3,13 @@
 ## Made For Speeduino and RusEFI Firmware
 This board is inspired by Pazi88 and Mega100 boards. Thank you very much to those who created the board first.
 
+
 ### Front
-![front](render/front.jpeg)
+![front](render/rev1.2/front.png)
 
 ### Back
-![front](render/back.jpeg)
+![front](render/rev1.2/back.png)
+
 
 ### Schematic 
 [schematic-stm32f407xxx-mega-layout.pdf](schematic-stm32f407xxx-mega-layout.pdf)

@@ -3,12 +3,12 @@
 	(generator "eeschema")
 	(generator_version "8.0")
 	(uuid "93f08daf-a15d-4ad4-9b7c-ce34c9e2f4b2")
-	(paper "USLetter")
+	(paper "A4")
 	(title_block
-		(title "MAZDUINO32")
-		(date "2023-05-31")
-		(rev "C5")
-		(company "Karisma")
+		(title "STM32F407 Mega Layout")
+		(date "2025-02-22")
+		(rev "1.2")
+		(company "MAZDUINO")
 		(comment 1 "202501")
 	)
 	(lib_symbols

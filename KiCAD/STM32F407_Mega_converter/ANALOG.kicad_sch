@@ -4,6 +4,13 @@
 	(generator_version "8.0")
 	(uuid "af3e1de6-ecd0-4042-9121-f37cb0375dcb")
 	(paper "A4")
+	(title_block
+		(title "STM32F407 Mega Layout")
+		(date "2025-02-22")
+		(rev "1.2")
+		(company "MAZDUINO")
+		(comment 1 "202501")
+	)
 	(lib_symbols
 		(symbol "Amplifier_Operational:MCP6004"
 			(pin_names

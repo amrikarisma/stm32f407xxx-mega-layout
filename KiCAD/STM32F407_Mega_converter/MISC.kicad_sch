@@ -4,6 +4,13 @@
 	(generator_version "8.0")
 	(uuid "83b9c280-5896-479f-9774-89992cc6c4ba")
 	(paper "A4")
+	(title_block
+		(title "STM32F407 Mega Layout")
+		(date "2025-02-22")
+		(rev "1.2")
+		(company "MAZDUINO")
+		(comment 1 "202501")
+	)
 	(lib_symbols
 		(symbol "Device:C"
 			(pin_numbers hide)
