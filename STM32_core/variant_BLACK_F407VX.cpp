@@ -19,43 +19,43 @@
 // to STM32 PinName (PX_n)
 const PinName digitalPin[] = {
   PC_9,   PC_8,   // D0, D1
-  PD_7,   PB_6,
-  PD_11,  PD_10,
-  PD_9,   PD_8,
-  PB_15,  PB_14,
-  PB_12,  PB_13,   // D10, D11
-  PA_8,   PD_2,
-  PD_5,   PD_6,
-  PC_12,  PC_11,
-  PD_4,   PD_3,
+  PD_7,   PB_6,   // D2, D3
+  PB_12,  PB_13,  // D4, D5
+  PB_14,  PB_15,  // D6, D7
+  PD_8,   PD_9,   // D8, D9
+  PD_10,  PD_11,  // D10, D11
+  PA_8,   PB_3,   // D12, D13
+  PB_10,  PB_11,  // D14, D15
+  PC_12,  PC_11,  // D16, D17
+  PD_4,   PD_3,   // D18, D19
   PD_0,   PD_1,   // D20, D21
-  PA_10,  PA_9,
-  PA_15,  PB_10,
-  PC_7,   PB_11,
-  PC_6,   PC_10,
+  PA_10,  PA_9,   // D22, D23
+  PA_15,  PD_5,   // D24, D25
+  PC_7,   PD_6,   // D26, D27
+  PC_6,   PC_10,  // D28, D29
   PD_14,  PD_15,  // D30, D31
-  PD_12,  PD_13,
-  PE_5,   PE_15,
-  PE_4,   PE_14,
-  PE_3,   PE_13,
-  PE_2,   PE_12,   // D40, D41
-  PE_10,  PB_7,
-  PB_3,   PE_11,
-  PE_0,   PE_9,
-  PE_6,   PE_8,
+  PD_12,  PD_13,  // D32, D33
+  PE_5,   PE_15,  // D34, D35
+  PE_4,   PE_14,  // D36, D37
+  PE_3,   PE_13,  // D38, D39
+  PE_2,   PE_12,  // D40, D41
+  PE_10,  PB_7,   // D42, D43
+  PB_3,   PE_11,  // D44, D45
+  PE_0,   PE_9,   // D46, D47
+  PE_6,   PE_8,   // D48, D49
   PE_7,   PB_8,   // D50, D51
-  PC_13,  PB_9,
-  PA_0,   PA_1,
-  PA_2,   PA_3,
-  PA_4,   PA_5,
-  PA_6,   PA_7,   // D60, D61
-  PB_0,   PB_1,
-  PC_0,   PC_1,
-  PC_2,   PC_3,
-  PC_4,   PC_5,
+  PC_13,  PB_9,   // D52, D53
+  PA_0,   PA_1,   // A0, A1
+  PA_2,   PA_3,   // A2, A3
+  PA_4,   PA_5,   // A4, A5
+  PA_6,   PA_7,   // A6, A7
+  PB_0,   PB_1,   // A8, A9
+  PC_0,   PC_1,   // A10, A11
+  PC_2,   PC_3,   // A12, A13
+  PC_4,   PC_5,   // A14, A15
   PA_11,  PA_12,  // D70, D71
-  PE_1,   PB_4,
-  PB_5,
+  PE_1,   PB_4,   // D72, D73
+  PB_5,           // D74
 };
 
 // Analog (Ax) pin number array

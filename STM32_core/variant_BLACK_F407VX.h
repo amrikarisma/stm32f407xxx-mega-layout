@@ -15,60 +15,60 @@
 /*----------------------------------------------------------------------------
  *        STM32 pins number
  *----------------------------------------------------------------------------*/
-#define PC9                      0
-#define PC8                      1
-#define PD7                      2
-#define PB6                      3
-#define PD11                     4
-#define PD10                     5
-#define PD9                      6
-#define PD8                      7
-#define PB15                     8
-#define PB14                     9
-#define PB12                     10
-#define PB13                     11
-#define PA8                      12
-#define PD2                      13 // SD CS
-#define PD5                      14
-#define PD6                      15
+#define PC9                      0 // D22
+#define PC8                      1 // D23
+#define PD7                      2 // D2
+#define PB6                      3 // D3
+#define PB12                     4 // D4
+#define PB13                     5 // D5
+#define PB14                      6 // D6
+#define PB15                      7 // D7
+#define PD8                     8 // D8
+#define PD9                     9 // D9
+#define PD10                     10 // D10
+#define PD11                     11 // D11
+#define PA8                      12 // D12
+#define PB3                      13 // D13
+#define PB10                      14 // D16
+#define PB11                      15 // D17
 #define PC12                     16 // SPI3 MOSI for SD
 #define PC11                     17 // SPI3 MISO for SD
-#define PD4                      18
-#define PD3                      19
+#define PD4                      18 // D18
+#define PD3                      19 // D19
 #define PD0                      20 // CAN RX
 #define PD1                      21 // CAN TX
-#define PA10                     22
-#define PA9                      23
-#define PA15                     24
-#define PB10                     25
-#define PC7                      26
-#define PB11                     27
-#define PC6                      28
+#define PA10                     22 // D0
+#define PA9                      23 // D1
+#define PA15                     24 // D24
+#define PD5                     25 // D14
+#define PC7                      26 // D26
+#define PD6                     27 // D15
+#define PC6                      28 // D28
 #define PC10                     29 // SPI3 CLK for SD
-#define PD14                     30
-#define PD15                     31
-#define PD12                     32
-#define PD13                     33
-#define PE5                      34
-#define PE15                     35
-#define PE4                      36
-#define PE14                     37
-#define PE3                      38
-#define PE13                     39
-#define PE2                      40
-#define PE12                     41
-#define PE10                     42
-#define PB7                      43
-#define PB3                      44 // SPI1 CLK
-#define PE11                     45
-#define PE0                      46
-#define PE9                      47
-#define PE6                      48
-#define PE8                      49
-#define PE7                      50
-#define PB8                      51
-#define PC13                     52
-#define PB9                      53
+#define PD14                     30 // D30
+#define PD15                     31 // D31
+#define PD12                     32 // D32
+#define PD13                     33 // D33
+#define PE5                      34 // D34
+#define PE15                     35 // D35
+#define PE4                      36 // D36
+#define PE14                     37 // D37
+#define PE3                      38 // D38
+#define PE13                     39 // D39
+#define PE2                      40 // D40
+#define PE12                     41 // D41
+#define PE10                     42 // D42
+#define PB7                      43 // D43
+#define PE0                      44 // SPI1 CLK
+#define PE11                     45 // D45
+#define PD2                      46 // D46 // SD CS
+#define PE9                      47 // D47
+#define PE6                      48 // D48
+#define PE8                      49 // D49
+#define PE7                      50 // D50
+#define PB8                      51 // D51
+#define PC13                     52 // D52
+#define PB9                      53 // D53
 #define PA0                      PIN_A0
 #define PA1                      PIN_A1
 #define PA2                      PIN_A2
